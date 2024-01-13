@@ -7,18 +7,122 @@ public class Interaction : MonoBehaviour
     public static void TryToInteract(InteractableObject obj)
     {
         string worldObject = obj.name;
+        bool readBook=GameManager.conditionsMeet[GameManager.ConditionNames.readBook];
 
-        // This List helds all Interactions beetwenn the world objects and 
+        // This List helds all Interactions beetwenn the world objects and the player
         switch (worldObject) {
-            case "Chair":
-                // Either do something immediate
-                // Or check for a specific held item
-                if (Inventory.heldItem=="candle") {}
-                // and or certain condition that has to be meet
-                if (GameManager.conditionsMeet[GameManager.ConditionNames.testing]) {}
+            case "necroBook":
+                UnlockCondition(GameManager.ConditionNames.readBook);
+                DestroyOriginObject(obj);
+            break;
+            case "curtains":
+                if (!readBook) {return;}
+                if (Inventory.heldItem=="dagger") 
+                {
+                    UnlockCondition(GameManager.ConditionNames.wearingRobe);
+                    UseItem();
+                    DestroyOriginObject(obj);
+                }
+            break;
+            case "drain":
+                if (!readBook) {return;}
+                if (Inventory.heldItem=="magnetrope") 
+                {
+                    GainItem("lighter");
+                    UseItem();
+                }
+            break;
+            case "paintbucket":
+                if (!readBook) {return;}
+                if (Inventory.heldItem=="screwdriver") 
+                {
+                    TransformOriginObject(obj);
+                    UseItem();
+                }
+            break;
+            case "openPaintbucket":
+                if (!readBook) {return;}
+                if (Inventory.heldItem=="candle") 
+                {
+                    TransformItem("redCandle");
+                }
+            break;
+            case "chest":
+                if (!readBook) {return;}
+                TransformOriginObject(obj);
+                GainItem("bat");    
+            break;
+            case "fakeSkeleton":
+                if (!readBook) {return;}
+                if (Inventory.heldItem=="bat") 
+                {
+                    TransformOriginObject(obj);
+                    GainItem("fakeSkull");
+                    UseItem();
+                }
+            break;
+            //
+            // Endgame
+            //
+            case "oldPentagram":
+                if (!readBook) {return;}
+                if (Inventory.heldItem=="chalk") 
+                {
+                    TransformOriginObject(obj);
+                    UseItem();
+                }
+            break;
+            case "pentagram":
+                if (!readBook) {return;}
+                if (Inventory.heldItem=="redCandle") 
+                {
+                    TransformOriginObject(obj);
+                    UseItem();
+                }
+            break;
+            case "unlitPentagram":
+                if (!readBook) {return;}
+                if (Inventory.heldItem=="lighter") 
+                {
+                    TransformOriginObject(obj);
+                    UseItem();
+                }
+            break;
+            case "litPentagram":
+                if (!readBook) {return;}
+                if (!GameManager.conditionsMeet[GameManager.ConditionNames.wearingRobe]) {return;}
+                if (Inventory.heldItem=="fakeSkull") 
+                {
+                    // GameOver
+                }
+            break;     
+            // 
+            // Only Pickup Items
+            // 
+            case "dagger":
+                if (!readBook) {return;}
+                PickupItem(obj);
+            break;
+            case "rope":
+                if (!readBook) {return;}
+                PickupItem(obj);
+            break;
+            case "magnet":
+                if (!readBook) {return;}
+                PickupItem(obj);
             break;
             case "screwdriver":
+                if (!readBook) {return;}
                 PickupItem(obj);
+            break;
+            case "candle":
+                if (!readBook) {return;}
+                PickupItem(obj);
+            break;
+            case "chalk":
+                if (!readBook) {return;}
+                PickupItem(obj);
+                comment("Das wird nützlich");
             break;
         }
     }
@@ -41,7 +145,8 @@ public class Interaction : MonoBehaviour
     }
     public static void TransformOriginObject(InteractableObject obj)
     {
-        Instantiate(obj.alternativePrefab, obj.transform);
+        Debug.Log("Here we are!");
+        Instantiate(obj.alternativePrefab, obj.transform.position, Quaternion.identity);
         DestroyOriginObject(obj);
     }
     public static void UseItem()

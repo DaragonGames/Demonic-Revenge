@@ -7,10 +7,11 @@ using UnityEngine;
 public class CommentController : MonoBehaviour
 {
     public static CommentController commentor;
+    public Transform playerPosition;
     private float timer=0;    
     private string displayText = "";
 
-    private float charPerSecond=8;
+    private float charPerSecond=15;
     private float lingeringTime=3;
 
     // Start is called before the first frame update

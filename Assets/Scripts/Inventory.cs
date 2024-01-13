@@ -5,7 +5,7 @@ using UnityEngine;
 
 public static class Inventory
 {
-    public static int maxItems = 5;
+    public static int maxItems = 7;
     private static string[] items = new string[maxItems];
     public static string heldItem;
 
@@ -73,10 +73,11 @@ public static class Inventory
     public static string checkRecepies(string item, string item2)
     {
         switch (item) {
-            case "chair":
-                if (item2=="deluxe")
+            case "magnet":
+                if (item2=="rope")
                 {
-                    return "Deluxe Chair";
+                    heldItem="";
+                    return "magnetrope";                    
                 }
                 break;
         }

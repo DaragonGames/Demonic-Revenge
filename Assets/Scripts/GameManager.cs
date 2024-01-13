@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public static int gameState=1;
 
-    public enum ConditionNames { demonAngry, step5completed, testing};
+    public enum ConditionNames {readBook, wearingRobe};
 
     public static Dictionary<ConditionNames, bool> conditionsMeet = new Dictionary<ConditionNames, bool>();
 

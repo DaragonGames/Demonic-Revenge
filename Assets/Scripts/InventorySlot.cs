@@ -38,24 +38,21 @@ public class InventorySlot : MonoBehaviour
             }
             else
             {
-                Inventory.heldItem=slotItem;
-                InventoryDisplay.main.UpdateDisplayedInventory();
+                if (Inventory.heldItem=="")
+                {
+                    Inventory.heldItem=slotItem;
+                    InventoryDisplay.main.UpdateDisplayedInventory();
+                    return;
+                }
+                if (slotItem=="")
+                {
+                    Inventory.changeItemPosition(Inventory.heldItem,position);
+                    Inventory.heldItem="";
+                    InventoryDisplay.main.UpdateDisplayedInventory();
+                return;
+                }
+                Inventory.crafting(slotItem, Inventory.heldItem);
             }        
-        }
-        if (Input.GetMouseButtonUp(0))
-        {
-            if (Inventory.heldItem=="")
-            {
-                return;
-            }
-            if (slotItem=="")
-            {
-                Inventory.changeItemPosition(Inventory.heldItem,position);
-                Inventory.heldItem="";
-                InventoryDisplay.main.UpdateDisplayedInventory();
-                return;
-            }
-            Inventory.crafting(slotItem, Inventory.heldItem);
         }
     }
 }

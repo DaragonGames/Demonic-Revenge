@@ -8,7 +8,7 @@ public class InteractableObject : MonoBehaviour
     public string name;
     public GameObject alternativePrefab;
     private bool selected;
-    private float reach=1;
+    public float reach=1;
 
     void Update()
     {  

@@ -8,7 +8,7 @@ public class Cursor : MonoBehaviour
     void Update()
     {
         Vector3 cameraPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.position = new Vector3(cameraPosition.x, 25, cameraPosition.z);
+        transform.position = new Vector3(cameraPosition.x, 15, cameraPosition.z);
         
         Sprite heldItemSprite= InventoryDisplay.main.GetSpriteByName(Inventory.heldItem);
         GetComponent<SpriteRenderer>().sprite = heldItemSprite;
