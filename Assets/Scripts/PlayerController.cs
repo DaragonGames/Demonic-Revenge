@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private NavMeshAgent agent;
     public static PlayerController player;
     public Vector3 lastPosition;
+    private float hittingTime=0;
 
     // Start is called before the first frame update
     void Awake()
@@ -21,6 +22,15 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (hittingTime>0)
+        {
+            hittingTime-=Time.deltaTime;
+            return;
+        }
+        else
+        {
+            player.GetComponentInChildren<Animator>().SetBool("isHitting", false);
+        }
         if (agent.velocity.magnitude>0)
         {
             GetComponentInChildren<Animator>().SetBool("isMoving", true);
@@ -62,5 +72,11 @@ public class PlayerController : MonoBehaviour
     {
         Vector3 goal = new Vector3(transform.position.x, 0.5f, transform.position.z);
         agent.SetDestination(goal);
+    }
+
+    public static void hitStuff()
+    {
+        player.GetComponentInChildren<Animator>().SetBool("isHitting", true);
+        player.hittingTime=1;
     }
 }

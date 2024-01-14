@@ -6,6 +6,11 @@ public class Interaction : MonoBehaviour
 {
     public static void TryToInteract(InteractableObject obj)
     {
+        if (Inventory.heldItem=="bat")
+        {
+            PlayerController.hitStuff();
+        }
+
         string worldObject = obj.name;
         bool readBook=GameManager.conditionsMeet[GameManager.ConditionNames.readBook];
 
@@ -126,7 +131,7 @@ public class Interaction : MonoBehaviour
                 comment("Das wird nützlich");
             break;
         }
-    }
+}
 
     public static void GainItem(string itemName)
     {
