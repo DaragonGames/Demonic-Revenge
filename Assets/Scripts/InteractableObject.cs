@@ -18,7 +18,9 @@ public class InteractableObject : MonoBehaviour
         }
         if (selected)
         {
-            float distance= Vector3.Distance(transform.position, PlayerController.player.transform.position);
+            Vector3 playerPositions = new Vector3(PlayerController.player.transform.position.x,0,PlayerController.player.transform.position.z);
+            Vector3 thisObjectPositions = new Vector3(transform.position.x,0,transform.position.z);
+            float distance= Vector3.Distance(playerPositions, thisObjectPositions);
             if (distance <reach)
             {
                 PlayerController.player.StopMovement();

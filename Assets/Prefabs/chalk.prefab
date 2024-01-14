@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: chalk
   alternativePrefab: {fileID: 0}
-  reach: 1
+  reach: 2
 --- !u!114 &3387538513289310131
 MonoBehaviour:
   m_ObjectHideFlags: 0

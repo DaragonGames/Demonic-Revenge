@@ -27,14 +27,25 @@ public class Interaction : MonoBehaviour
                     UnlockCondition(GameManager.ConditionNames.wearingRobe);
                     UseItem();
                     TransformOriginObject(obj);
+                    comment("Nobody needs curtains in an attic. I’m a cultist now, baby!");  
                 }
             break;
             case "drain":
+                comment("Don’t know why there would be a drain here, but then I’m no interior designer.");  
                 if (!readBook) {return;}
+                if (Inventory.heldItem=="rope")
+                {
+                    comment("Right, I’m just gonna abseil into this here tiny hole. Not!");    
+                }
+                if (Inventory.heldItem=="magnet")
+                {
+                    comment("The grate is not magnetic.");    
+                }
                 if (Inventory.heldItem=="magnetrope") 
                 {
                     GainItem("lighter");
                     UseItem();
+                    comment("I don’t smoke, but these lighters are fun to use.");                                                      
                 }
             break;
             case "paintbucket":
@@ -43,6 +54,7 @@ public class Interaction : MonoBehaviour
                 {
                     TransformOriginObject(obj);
                     UseItem();
+                    comment("Yes, the bucket is open. I'm a genius, I could even solve a double labyrinth!"); 
                 }
             break;
             case "openPaintbucket":
@@ -50,12 +62,14 @@ public class Interaction : MonoBehaviour
                 if (Inventory.heldItem=="candle") 
                 {
                     TransformItem("redCandle");
+                    comment("Now I don’t have red candles. —- Now I do.");  
                 }
             break;
             case "chest":
                 if (!readBook) {return;}
                 TransformOriginObject(obj);
                 GainItem("bat");    
+                comment("Well, well, well, if it isn’t my old baseball bat. I used to love BONKing stuff.");   
             break;
             case "fakeSkeleton":
                 if (!readBook) {return;}
@@ -63,6 +77,7 @@ public class Interaction : MonoBehaviour
                 {
                     TransformOriginObject(obj);
                     GainItem("fakeSkull");
+                    comment("2B or not 2B...");
                     UseItem();
                 }
             break;
@@ -75,6 +90,7 @@ public class Interaction : MonoBehaviour
                 {
                     TransformOriginObject(obj);
                     UseItem();
+                    comment("The book said I need a summoning circle, this should do.");                                             
                 }
             break;
             case "pentagram":
@@ -84,12 +100,17 @@ public class Interaction : MonoBehaviour
                     TransformOriginObject(obj);
                     UseItem();
                 }
+                if (Inventory.heldItem=="candle")
+                {
+                    comment("Wait, the book said I need candles in the color of blood. It’s gotta look authentic!");    
+                }
             break;
             case "unlitPentagram":
                 if (!readBook) {return;}
                 if (Inventory.heldItem=="lighter") 
                 {
                     TransformOriginObject(obj);
+                    comment("AND THUS I AM BECOME PROMETHEUS!");
                     UseItem();
                 }
             break;
@@ -108,27 +129,32 @@ public class Interaction : MonoBehaviour
             case "dagger":
                 if (!readBook) {return;}
                 PickupItem(obj);
+                comment("A creepy dagger. Wonder if I could quickstep with this.");
             break;
             case "rope":
                 if (!readBook) {return;}
+                comment("Found some rope.");
                 PickupItem(obj);
             break;
             case "magnet":
                 if (!readBook) {return;}
+                comment("It’s mine now —- my precious...");
                 PickupItem(obj);
             break;
             case "screwdriver":
                 if (!readBook) {return;}
+                comment("A screwdriver, sadly not the kind you can drink.");
                 PickupItem(obj);
             break;
             case "candle":
                 if (!readBook) {return;}
+                comment("Found some candles.");
                 PickupItem(obj);
             break;
             case "chalk":
                 if (!readBook) {return;}
                 PickupItem(obj);
-                comment("Das wird nützlich");
+                comment("This is chalk or 5 white pixels, I`m not sure.");
             break;
         }
 }

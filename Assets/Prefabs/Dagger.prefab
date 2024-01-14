@@ -138,8 +138,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.9, y: 1, z: 0.9}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.8, y: 1, z: 1.4}
+  m_Center: {x: -0.2, y: 0, z: 0.1}
 --- !u!114 &517352746971581454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: dagger
   alternativePrefab: {fileID: 0}
-  reach: 1
+  reach: 1.4
 --- !u!114 &6722004316777765535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,4 +167,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79cca1b4d3c5a3042a69abc1d9df59f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  line: A creepy dagger. Wonder if I could quickstep with this.
+  line: Is finding more loot worth, triggering my cardboard allergy? Yes, it is.
