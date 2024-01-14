@@ -5,7 +5,7 @@ using UnityEngine;
 
 public static class Inventory
 {
-    public static int maxItems = 7;
+    public static int maxItems = 8;
     private static string[] items = new string[maxItems];
     public static string heldItem;
 
