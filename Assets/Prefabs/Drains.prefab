@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79cca1b4d3c5a3042a69abc1d9df59f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  line: This thing smells a bit
+  line: This thing smells a bit. But its depths may hide untold riches.
 --- !u!1 &8771727571560032694
 GameObject:
   m_ObjectHideFlags: 0

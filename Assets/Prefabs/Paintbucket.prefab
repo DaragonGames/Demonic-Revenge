@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79cca1b4d3c5a3042a69abc1d9df59f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  line: Watching paint dry... Not Again!
+  line: Watching paint dry... not Again!
 --- !u!114 &1799237804880401708
 MonoBehaviour:
   m_ObjectHideFlags: 0
