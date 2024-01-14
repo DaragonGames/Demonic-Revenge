@@ -187,4 +187,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: openPaintbucket
   alternativePrefab: {fileID: 0}
-  reach: 1.25
+  reach: 1.5

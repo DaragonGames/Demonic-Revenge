@@ -77,6 +77,7 @@ public static class Inventory
                 if (item2=="rope")
                 {
                     heldItem="";
+                    CommentController.commentor.Comment("Rope... magnet... Rope magnet!!");
                     return "magnetrope";                    
                 }
                 break;

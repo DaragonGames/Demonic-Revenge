@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: magnet
   alternativePrefab: {fileID: 0}
-  reach: 1
+  reach: 2
 --- !u!114 &7288956869799081066
 MonoBehaviour:
   m_ObjectHideFlags: 0
