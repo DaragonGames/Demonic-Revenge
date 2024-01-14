@@ -21,7 +21,7 @@ public class Interaction : MonoBehaviour
                 {
                     UnlockCondition(GameManager.ConditionNames.wearingRobe);
                     UseItem();
-                    DestroyOriginObject(obj);
+                    TransformOriginObject(obj);
                 }
             break;
             case "drain":
@@ -94,6 +94,7 @@ public class Interaction : MonoBehaviour
                 if (Inventory.heldItem=="fakeSkull") 
                 {
                     // GameOver
+                    Debug.Log("The End");
                 }
             break;     
             // 
@@ -145,7 +146,6 @@ public class Interaction : MonoBehaviour
     }
     public static void TransformOriginObject(InteractableObject obj)
     {
-        Debug.Log("Here we are!");
         Instantiate(obj.alternativePrefab, obj.transform.position, Quaternion.identity);
         DestroyOriginObject(obj);
     }

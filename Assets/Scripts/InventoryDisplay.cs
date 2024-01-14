@@ -44,7 +44,7 @@ public class InventoryDisplay : MonoBehaviour
                 return possibleItems[8];
             case "screwdriver":
                 return possibleItems[9];
-            case "skull":
+            case "fakeSkull":
                 return possibleItems[10];
             default:
                 return null;
