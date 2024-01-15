@@ -15,6 +15,11 @@ public class Interaction : MonoBehaviour
         }
 
         switch (worldObject) {
+            case "pictureCovered":
+                //if (Inventory.heldItem!="" && Inventory.heldItem!="")
+                TransformOriginObject(obj);
+                comment("Well that’s a dull painting. She’s just sitting there. Creepy smile tho. Who painted this affront to the visual arts?");  
+                break;
             case "necroBook":
                 UnlockCondition(GameManager.ConditionNames.readBook);
                 NecroBook.Read();
