@@ -12749,11 +12749,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1922729928}
     m_Modifications:
-    - target: {fileID: 2534368275742257825, guid: 90c444ed93a5cda4ca5f5208e18fadde, type: 3}
-      propertyPath: line
-      value: "Don\u2019t know why there would be a drain grate here, but then I\u2019m
-        no interior designer."
-      objectReference: {fileID: 0}
     - target: {fileID: 4303258502395293676, guid: 90c444ed93a5cda4ca5f5208e18fadde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.59
