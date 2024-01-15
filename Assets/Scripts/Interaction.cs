@@ -18,7 +18,7 @@ public class Interaction : MonoBehaviour
         switch (worldObject) {
             case "necroBook":
                 UnlockCondition(GameManager.ConditionNames.readBook);
-                DestroyOriginObject(obj);
+                NecroBook.Read();
             break;
             case "curtains":
                 if (!readBook) {return;}
@@ -30,8 +30,7 @@ public class Interaction : MonoBehaviour
                     comment("Nobody needs curtains in an attic. I’m a cultist now, baby!");  
                 }
             break;
-            case "drain":
-                comment("Don’t know why there would be a drain here, but then I’m no interior designer.");  
+            case "drain": 
                 if (!readBook) {return;}
                 if (Inventory.heldItem=="rope")
                 {

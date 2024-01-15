@@ -14,6 +14,10 @@ public class InteractableObject : MonoBehaviour
     {  
         if (Input.GetMouseButtonDown(0))
         {
+            if (EventSystem.current.IsPointerOverGameObject() || GameManager.gameState != 1)
+            {
+                return;
+            }
             selected=false;
         }
         if (selected)
@@ -36,6 +40,10 @@ public class InteractableObject : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0))
         {
+            if (EventSystem.current.IsPointerOverGameObject() || GameManager.gameState != 1)
+            {
+                return;
+            }
             selected=true;
         }
     }
