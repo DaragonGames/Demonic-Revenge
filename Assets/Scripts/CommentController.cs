@@ -9,7 +9,7 @@ public class CommentController : MonoBehaviour
     public static CommentController commentor;
     public Transform playerPosition;
     private float timer=0;    
-    private string displayText = "";
+    private string displayText ="Alright, there’s tons of junk in the attic. Something here has to be cool enough to show off on TokTik. People love old crap. With enough luck, I might just go viral.";
 
     private float charPerSecond=15;
     private float lingeringTime=3;

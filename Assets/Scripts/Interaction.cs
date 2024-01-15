@@ -6,15 +6,14 @@ public class Interaction : MonoBehaviour
 {
     public static void TryToInteract(InteractableObject obj)
     {
-        if (Inventory.heldItem=="bat")
-        {
-            PlayerController.hitStuff();
-        }
-
         string worldObject = obj.name;
         bool readBook=GameManager.conditionsMeet[GameManager.ConditionNames.readBook];
 
         // This List helds all Interactions beetwenn the world objects and the player
+        if (!readBook && worldObject != "necroBook") {
+            comment("Just some old jix.");    
+        }
+
         switch (worldObject) {
             case "necroBook":
                 UnlockCondition(GameManager.ConditionNames.readBook);
@@ -29,6 +28,10 @@ public class Interaction : MonoBehaviour
                     TransformOriginObject(obj);
                     comment("Nobody needs curtains in an attic. I’m a cultist now, baby!");  
                 }
+                if (Inventory.heldItem=="bat")
+                {
+                    comment("I'm not a hooligan.");  
+                } 
             break;
             case "drain": 
                 if (!readBook) {return;}
@@ -55,6 +58,10 @@ public class Interaction : MonoBehaviour
                     UseItem();
                     comment("Yes, the bucket is open. I'm a genius, I could even solve a double labyrinth!"); 
                 }
+                if (Inventory.heldItem=="bat")
+                {
+                    PlayerController.hitStuff();
+                }           
             break;
             case "openPaintbucket":
                 if (!readBook) {return;}
@@ -63,12 +70,20 @@ public class Interaction : MonoBehaviour
                     TransformItem("redCandle");
                     comment("Now I don’t have red candles. —- Now I do.");  
                 }
+                if (Inventory.heldItem=="bat")
+                {
+                    PlayerController.hitStuff();
+                } 
             break;
             case "chest":
                 if (!readBook) {return;}
                 TransformOriginObject(obj);
                 GainItem("bat");    
-                comment("Well, well, well, if it isn’t my old baseball bat. I used to love BONKing stuff.");   
+                comment("Well, well, well, if it isn’t my old baseball bat. I used to love BONKing stuff."); 
+                if (Inventory.heldItem=="bat")
+                {
+                    PlayerController.hitStuff();
+                }   
             break;
             case "fakeSkeleton":
                 if (!readBook) {return;}
@@ -153,7 +168,7 @@ public class Interaction : MonoBehaviour
             case "chalk":
                 if (!readBook) {return;}
                 PickupItem(obj);
-                comment("This is chalk or 5 white pixels, I`m not sure.");
+                comment("This is chalk or five white pixels, I`m not sure.");
             break;
         }
 }

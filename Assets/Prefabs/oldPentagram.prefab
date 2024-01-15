@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79cca1b4d3c5a3042a69abc1d9df59f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  line: Some one should clean this up
+  line: Someone should clean this up.
 --- !u!135 &7333498980096452979
 SphereCollider:
   m_ObjectHideFlags: 0
