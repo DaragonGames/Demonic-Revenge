@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviour
 {
     private NavMeshAgent agent;
     public static PlayerController player;
-    public Vector3 lastPosition;
     private float hittingTime=0;
 
     // Start is called before the first frame update
@@ -16,7 +15,6 @@ public class PlayerController : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         player=this;
-        lastPosition=transform.position;
     }
 
     // Update is called once per frame

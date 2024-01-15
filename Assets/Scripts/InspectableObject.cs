@@ -8,7 +8,7 @@ public class InspectableObject : MonoBehaviour
 
     void OnMouseOver()
     {
-        if (Input.GetMouseButtonUp(1))
+        if (Input.GetMouseButtonUp(1) && GameManager.gameState == 1)
         {
             CommentController.commentor.Comment(line);
         }

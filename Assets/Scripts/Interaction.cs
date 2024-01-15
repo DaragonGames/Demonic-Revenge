@@ -11,7 +11,7 @@ public class Interaction : MonoBehaviour
 
         // This List helds all Interactions beetwenn the world objects and the player
         if (!readBook && worldObject != "necroBook") {
-            comment("Just some old jix.");    
+            comment("Just some old thingamajigs.");    
         }
 
         switch (worldObject) {
@@ -52,16 +52,16 @@ public class Interaction : MonoBehaviour
             break;
             case "paintbucket":
                 if (!readBook) {return;}
+                if (Inventory.heldItem=="bat")
+                {
+                    PlayerController.hitStuff();
+                }  
                 if (Inventory.heldItem=="screwdriver") 
                 {
                     TransformOriginObject(obj);
                     UseItem();
                     comment("Yes, the bucket is open. I'm a genius, I could even solve a double labyrinth!"); 
-                }
-                if (Inventory.heldItem=="bat")
-                {
-                    PlayerController.hitStuff();
-                }           
+                }                         
             break;
             case "openPaintbucket":
                 if (!readBook) {return;}
@@ -89,6 +89,7 @@ public class Interaction : MonoBehaviour
                 if (!readBook) {return;}
                 if (Inventory.heldItem=="bat") 
                 {
+                    PlayerController.hitStuff();
                     TransformOriginObject(obj);
                     GainItem("fakeSkull");
                     comment("2B or not 2B...");
@@ -133,8 +134,7 @@ public class Interaction : MonoBehaviour
                 if (!GameManager.conditionsMeet[GameManager.ConditionNames.wearingRobe]) {return;}
                 if (Inventory.heldItem=="fakeSkull") 
                 {
-                    // GameOver
-                    Debug.Log("The End");
+                    Death.Now();
                 }
             break;     
             // 

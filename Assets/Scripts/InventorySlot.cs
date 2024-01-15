@@ -29,7 +29,7 @@ public class InventorySlot : MonoBehaviour
 
     void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && GameManager.gameState == 1)
         {
             if (Inventory.heldItem==slotItem)
             {
