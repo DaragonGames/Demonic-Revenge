@@ -9,11 +9,6 @@ public class Interaction : MonoBehaviour
         string worldObject = obj.name;
         bool readBook=GameManager.conditionsMeet[GameManager.ConditionNames.readBook];
 
-        // This List helds all Interactions beetwenn the world objects and the player
-        if (!readBook && worldObject != "necroBook") {
-            comment("Just some old thingamajigs.");    
-        }
-
         switch (worldObject) {
             case "pictureCovered":
                 //if (Inventory.heldItem!="" && Inventory.heldItem!="")
@@ -141,7 +136,18 @@ public class Interaction : MonoBehaviour
                 {
                     Death.Now();
                 }
-            break;     
+            break;    
+            //
+            // Room Chnagers like Doors, Ladder etc
+            // 
+            case "ladderDown":
+                ChangeRoom("cellar",0);  
+                return;                
+            break;
+            case "ladderUp":
+                ChangeRoom("attic",0); 
+                return;               
+            break;
             // 
             // Only Pickup Items
             // 
@@ -175,6 +181,21 @@ public class Interaction : MonoBehaviour
                 PickupItem(obj);
                 comment("This is chalk or five white pixels, I`m not sure.");
             break;
+            case "flashLightEmpty":
+                if (!readBook) {return;}
+                PickupItem(obj);                
+                comment("...");
+            break;
+            case "batterie":
+                if (!readBook) {return;}
+                PickupItem(obj);
+                comment("...");
+            break;
+        }
+
+        // This List helds all Interactions beetwenn the world objects and the player
+        if (!readBook && worldObject != "necroBook") {
+            comment("Just some old thingamajigs.");    
         }
 }
 
@@ -213,5 +234,19 @@ public class Interaction : MonoBehaviour
     {
         GainItem(itemName);
         UseItem();
+    }
+
+    public static void ChangeRoom(string room, int entrance)
+    {
+        switch (room) {
+            case "attic":
+                GameManager.camera.transform.position = new Vector3(0,25,-1);
+                PlayerController.player.Warp(new Vector3(-6,1.5f,-3.5f));
+                break;
+            case "cellar":
+                GameManager.camera.transform.position = new Vector3(-30,25,-1);
+                PlayerController.player.Warp(new Vector3(-36,1.5f,-3.5f));
+                break;
+        }
     }
 }

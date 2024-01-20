@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     public static PlayerController player;
     private float hittingTime=0;
 
+    public float facingDirection=1;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -39,10 +41,12 @@ public class PlayerController : MonoBehaviour
         }
         if (agent.velocity.x >0)
         {
+            facingDirection=-1;
             transform.GetChild(0).localScale = Vector3.one - Vector3.right*2;
         }
         if (agent.velocity.x <0)
         {
+            facingDirection=1;
             transform.GetChild(0).localScale = Vector3.one;
         }
         if (GameManager.conditionsMeet[GameManager.ConditionNames.wearingRobe])
@@ -68,7 +72,7 @@ public class PlayerController : MonoBehaviour
 
     public void StopMovement()
     {
-        Vector3 goal = new Vector3(transform.position.x, 0.5f, transform.position.z);
+        Vector3 goal = new Vector3(transform.position.x, 1.5f, transform.position.z);
         agent.SetDestination(goal);
     }
 
@@ -76,5 +80,15 @@ public class PlayerController : MonoBehaviour
     {
         player.GetComponentInChildren<Animator>().SetBool("isHitting", true);
         player.hittingTime=1;
+    }
+
+    public void walkTowards(Vector3 goal)
+    {
+        agent.SetDestination(goal);
+    }
+
+    public void Warp(Vector3 goal)
+    {
+        agent.Warp(goal);
     }
 }

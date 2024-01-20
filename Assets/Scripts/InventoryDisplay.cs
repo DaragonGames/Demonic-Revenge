@@ -46,6 +46,10 @@ public class InventoryDisplay : MonoBehaviour
                 return possibleItems[9];
             case "fakeSkull":
                 return possibleItems[10];
+            case "batterie":
+                return possibleItems[11];
+            case "flashLightEmpty":
+                return possibleItems[12];
             default:
                 return null;
         }

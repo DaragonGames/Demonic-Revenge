@@ -1,14 +1,16 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Scripting;
 
 public class GameManager : MonoBehaviour
 {
     public static int gameState=1;
+    public static GameObject camera;
 
-    public enum ConditionNames {readBook, wearingRobe};
+    public enum ConditionNames {readBook, wearingRobe, hasFlashlight};
 
     public static Dictionary<ConditionNames, bool> conditionsMeet = new Dictionary<ConditionNames, bool>();
 
@@ -19,6 +21,7 @@ public class GameManager : MonoBehaviour
             conditionsMeet.Add((ConditionNames)e, false);
         }
         Inventory.SetItems();
+        camera = gameObject;
     }
 
 }

@@ -61,6 +61,12 @@ public static class Inventory
         {
             result = checkRecepies(item2, item);
         }
+        if (result=="used")
+        {
+            removeItem(item);
+            removeItem(item2);
+            return;
+        }
         if (result=="")
         {
             return;
@@ -80,7 +86,16 @@ public static class Inventory
                     CommentController.commentor.Comment("Rope... magnet... Rope magnet!!");
                     return "magnetrope";                    
                 }
-                break;
+            break;
+            case "flashLightEmpty":
+                if (item2=="batterie")
+                {
+                    heldItem="";
+                    CommentController.commentor.Comment("Who needs Darkvision now?");
+                    GameManager.conditionsMeet[GameManager.ConditionNames.hasFlashlight] = true;
+                    return "used";                    
+                }
+            break;
         }
         return "";
     }
