@@ -50,6 +50,10 @@ public class InventoryDisplay : MonoBehaviour
                 return possibleItems[11];
             case "flashLightEmpty":
                 return possibleItems[12];
+            case "chestKey":
+                return possibleItems[13];
+            case "broom":
+                return possibleItems[14];
             default:
                 return null;
         }

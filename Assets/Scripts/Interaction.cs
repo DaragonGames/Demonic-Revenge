@@ -45,16 +45,18 @@ public class Interaction : MonoBehaviour
                 }
                 if (Inventory.heldItem=="magnetrope") 
                 {
-                    GainItem("lighter");
+                    
+                    PlayerController.player.StartAnimation("fishing", obj);
                     UseItem();
-                    comment("I don’t smoke, but these lighters are fun to use.");                                                      
+                    GainItem("lighter");
+                    //comment("I don’t smoke, but these lighters are fun to use.");                                                      
                 }
             break;
             case "paintbucket":
                 if (!readBook) {return;}
                 if (Inventory.heldItem=="bat")
                 {
-                    PlayerController.hitStuff();
+                    PlayerController.player.StartAnimation("hitting", obj);
                 }  
                 if (Inventory.heldItem=="screwdriver") 
                 {
@@ -72,30 +74,66 @@ public class Interaction : MonoBehaviour
                 }
                 if (Inventory.heldItem=="bat")
                 {
-                    PlayerController.hitStuff();
+                    PlayerController.player.StartAnimation("hitting", obj);
                 } 
             break;
             case "chest":
                 if (!readBook) {return;}
-                TransformOriginObject(obj);
-                GainItem("bat");    
-                comment("Well, well, well, if it isn’t my old baseball bat. I used to love BONKing stuff."); 
+                if (Inventory.heldItem=="chestKey") 
+                {
+                    TransformOriginObject(obj);
+                    GainItem("bat");    
+                    comment("Well, well, well, if it isn’t my old baseball bat. I used to love BONKing stuff."); 
+                    UseItem();
+                }
                 if (Inventory.heldItem=="bat")
                 {
-                    PlayerController.hitStuff();
+                    PlayerController.player.StartAnimation("hitting", obj);
+                }   
+            break;
+            case "box":
+                if (!readBook) {return;}
+                TransformOriginObject(obj);
+                GainItem("batterie");    
+                comment("I'm in charge now."); 
+                if (Inventory.heldItem=="bat")
+                {
+                    PlayerController.player.StartAnimation("hitting", obj);
                 }   
             break;
             case "fakeSkeleton":
                 if (!readBook) {return;}
                 if (Inventory.heldItem=="bat") 
                 {
-                    PlayerController.hitStuff();
+                    PlayerController.player.StartAnimation("hitting", obj);
                     TransformOriginObject(obj);
                     GainItem("fakeSkull");
                     comment("2B or not 2B...");
                     UseItem();
                 }
             break;
+            case "jackInTheBox":
+                if (!GameManager.conditionsMeet[GameManager.ConditionNames.hasFlashlight]) {return;}
+                if (Inventory.heldItem=="bat")
+                {
+                    PlayerController.player.StartAnimation("hitting", obj);
+                }
+                else
+                {
+                    PlayerController.player.StartAnimation("panic", obj);
+                    StartAnimation(obj);
+                }                
+            break;
+            case "chestKey":
+                if (!readBook) {return;}
+                if (!GameManager.conditionsMeet[GameManager.ConditionNames.hasFlashlight]) {return;}
+                if (Inventory.heldItem == "broom")
+                {
+                    PickupItem(obj);
+                    comment("...");
+                    UseItem();
+                }                
+            break;            
             //
             // Endgame
             //
@@ -134,6 +172,7 @@ public class Interaction : MonoBehaviour
                 if (!GameManager.conditionsMeet[GameManager.ConditionNames.wearingRobe]) {return;}
                 if (Inventory.heldItem=="fakeSkull") 
                 {
+                    UseItem();
                     Death.Now();
                 }
             break;    
@@ -153,6 +192,7 @@ public class Interaction : MonoBehaviour
             // 
             case "dagger":
                 if (!readBook) {return;}
+                if (!GameManager.conditionsMeet[GameManager.ConditionNames.hasFlashlight]) {return;}
                 PickupItem(obj);
                 comment("A creepy dagger. Wonder if I could quickstep with this.");
             break;
@@ -163,6 +203,7 @@ public class Interaction : MonoBehaviour
             break;
             case "magnet":
                 if (!readBook) {return;}
+                if (!GameManager.conditionsMeet[GameManager.ConditionNames.hasFlashlight]) {return;}
                 comment("It’s mine now —- my precious...");
                 PickupItem(obj);
             break;
@@ -186,8 +227,9 @@ public class Interaction : MonoBehaviour
                 PickupItem(obj);                
                 comment("...");
             break;
-            case "batterie":
+            case "broom":
                 if (!readBook) {return;}
+                if (!GameManager.conditionsMeet[GameManager.ConditionNames.hasFlashlight]) {return;}
                 PickupItem(obj);
                 comment("...");
             break;
@@ -236,17 +278,23 @@ public class Interaction : MonoBehaviour
         UseItem();
     }
 
+    public static void StartAnimation(InteractableObject obj)
+    {
+        obj.StartAnimation();
+    }
+
     public static void ChangeRoom(string room, int entrance)
     {
         switch (room) {
             case "attic":
                 GameManager.camera.transform.position = new Vector3(0,25,-1);
-                PlayerController.player.Warp(new Vector3(-6,1.5f,-3.5f));
+                PlayerController.player.Warp(new Vector3(-6,1.2f,-3.5f));
                 break;
             case "cellar":
                 GameManager.camera.transform.position = new Vector3(-30,25,-1);
-                PlayerController.player.Warp(new Vector3(-36,1.5f,-3.5f));
+                PlayerController.player.Warp(new Vector3(-36.2f,1.2f,-0.5f));
                 break;
         }
     }
+
 }

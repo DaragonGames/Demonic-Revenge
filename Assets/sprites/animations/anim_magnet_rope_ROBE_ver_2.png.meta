@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 59391798c5e9cd54b9c9d726da4804ad
+guid: 80142748d37b2384c8a8b635ce6caf40
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,9 +70,9 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 16384
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: anim_magnet_rope_0
+      name: anim_magnet_rope_ROBE_ver_2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0953b2a989651cf459c21c58bfaa8580
-      internalID: 715212770
+      spriteID: b6c28f3b4d473e04584c6c7ed5686609
+      internalID: -1579905553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_1
+      name: anim_magnet_rope_ROBE_ver_2_1
       rect:
         serializedVersion: 2
         x: 64
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 952a281c029131245a854d1a49c064f1
-      internalID: 58645856
+      spriteID: aae3b8eb0c119eb41aa629f2bd8c8944
+      internalID: 280005316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_2
+      name: anim_magnet_rope_ROBE_ver_2_2
       rect:
         serializedVersion: 2
         x: 128
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01047b471bbb1a646a2bffbea9d07ec7
-      internalID: 1603342421
+      spriteID: 19481a4fa1bdb8a48a14922aa13af95e
+      internalID: -163222003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_3
+      name: anim_magnet_rope_ROBE_ver_2_3
       rect:
         serializedVersion: 2
         x: 192
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d1e0d42728dd0e449639bab123a619f
-      internalID: -1576704957
+      spriteID: 94c642a9b7872824ca0272b201917a1f
+      internalID: -1307395710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_4
+      name: anim_magnet_rope_ROBE_ver_2_4
       rect:
         serializedVersion: 2
         x: 256
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed721297492d39b418be00231f55ee9a
-      internalID: 574485086
+      spriteID: 8f539fabbf0f9c147beafaa897fd0e88
+      internalID: 629124361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_5
+      name: anim_magnet_rope_ROBE_ver_2_5
       rect:
         serializedVersion: 2
         x: 320
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 734b924020fa6f24aad1afa9b476e626
-      internalID: -1439021096
+      spriteID: b6a662267a32d204b810e64af49d1cb3
+      internalID: 328681736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_6
+      name: anim_magnet_rope_ROBE_ver_2_6
       rect:
         serializedVersion: 2
         x: 384
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6905ad1d7ecec354a807bb6378d026c1
-      internalID: -3586460
+      spriteID: b2d2f688ed09a044fbcf0efb966f610c
+      internalID: 1042736627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_7
+      name: anim_magnet_rope_ROBE_ver_2_7
       rect:
         serializedVersion: 2
         x: 448
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e23e393a71d7304e862c17b29c8d794
-      internalID: 1112909648
+      spriteID: dd46e720d0240614a88c08c4b860ee10
+      internalID: -623018403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_8
+      name: anim_magnet_rope_ROBE_ver_2_8
       rect:
         serializedVersion: 2
         x: 512
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d1ac192f53446d4384600ec5c2953a6
-      internalID: 981113157
+      spriteID: 01ece5346b7283946b56a41823646688
+      internalID: -553939062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_9
+      name: anim_magnet_rope_ROBE_ver_2_9
       rect:
         serializedVersion: 2
         x: 576
@@ -326,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef9dd794363d3da4d8cb8063d5b4a853
-      internalID: 1243475969
+      spriteID: 7007a582b77cc15409be09b89777e590
+      internalID: -906070647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_10
+      name: anim_magnet_rope_ROBE_ver_2_10
       rect:
         serializedVersion: 2
         x: 640
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97a058b0c7fdf084084d5dfc3c33d4e4
-      internalID: 756268546
+      spriteID: c0169a8a24100924ba089360b48e027e
+      internalID: -2068611646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_11
+      name: anim_magnet_rope_ROBE_ver_2_11
       rect:
         serializedVersion: 2
         x: 704
@@ -368,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d9c89f92e48df46a8b9196666aa7c0
-      internalID: 1465543591
+      spriteID: 69cacfa67ed1d0e429e83a831bb164ab
+      internalID: 1526182138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_12
+      name: anim_magnet_rope_ROBE_ver_2_12
       rect:
         serializedVersion: 2
         x: 768
@@ -389,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43dabb440842ec64688872e642f70e09
-      internalID: 1723598862
+      spriteID: 7a0b5dc81a2ed83498c6348070d6df13
+      internalID: -1338697256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_13
+      name: anim_magnet_rope_ROBE_ver_2_13
       rect:
         serializedVersion: 2
         x: 832
@@ -410,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc92b2333bd90f7418433e9c819f8cdf
-      internalID: 1583250161
+      spriteID: d71bc7ee9e4837a42acbe436f03b5fdf
+      internalID: 689895077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_14
+      name: anim_magnet_rope_ROBE_ver_2_14
       rect:
         serializedVersion: 2
         x: 896
@@ -431,14 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 056566250de61e347bcaae9cdb60a2d9
-      internalID: -1898994890
+      spriteID: 4bdebfd4a94f2274bb99cf9d39ef6270
+      internalID: -1322254998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_15
+      name: anim_magnet_rope_ROBE_ver_2_15
       rect:
         serializedVersion: 2
         x: 960
@@ -452,14 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80527e58316819942ae381d4c980f6ac
-      internalID: -103503003
+      spriteID: 1c442036d9241404ca86ce4fda8a8b97
+      internalID: -1473184607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_16
+      name: anim_magnet_rope_ROBE_ver_2_16
       rect:
         serializedVersion: 2
         x: 1024
@@ -473,14 +473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69f0b56457feb884abd7fc3b75467e3c
-      internalID: 991897350
+      spriteID: 07460c6d15224904c810b2ab50ece16b
+      internalID: 1023762024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_17
+      name: anim_magnet_rope_ROBE_ver_2_17
       rect:
         serializedVersion: 2
         x: 1088
@@ -494,14 +494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29e3669ec36a54047aa9887860cb6867
-      internalID: -660442333
+      spriteID: 57154dd8cb1f17f408740bfeddf34eff
+      internalID: 833467912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_18
+      name: anim_magnet_rope_ROBE_ver_2_18
       rect:
         serializedVersion: 2
         x: 1152
@@ -515,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 554c1bdf02e56fa438abfb2524212e04
-      internalID: -1358544284
+      spriteID: 1cb51e504db33e5499223b0f1917692c
+      internalID: 1346030781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_19
+      name: anim_magnet_rope_ROBE_ver_2_19
       rect:
         serializedVersion: 2
         x: 1216
@@ -536,14 +536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c32a58bd763c700418d62f7fc031921a
-      internalID: -611496550
+      spriteID: 25315a842f6eda94fb27ced250e58f14
+      internalID: 532198430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_20
+      name: anim_magnet_rope_ROBE_ver_2_20
       rect:
         serializedVersion: 2
         x: 1280
@@ -557,14 +557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99815986edd669246a926de6da4e70e7
-      internalID: 988093320
+      spriteID: b73b56fc5b1dfca4fa9a8002548fcdc9
+      internalID: 1719426956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_21
+      name: anim_magnet_rope_ROBE_ver_2_21
       rect:
         serializedVersion: 2
         x: 1344
@@ -578,14 +578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b78f8dd0f5cf664688d7ee9539c28ae
-      internalID: 311267244
+      spriteID: 17e0c89d06da6e3449616173ad3162fb
+      internalID: 1596780947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_22
+      name: anim_magnet_rope_ROBE_ver_2_22
       rect:
         serializedVersion: 2
         x: 1408
@@ -599,14 +599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 771ef775d5ab91343973ada403242855
-      internalID: -1263727015
+      spriteID: dd858069f3ad83d42835faf2e3a5abe2
+      internalID: -700469278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_23
+      name: anim_magnet_rope_ROBE_ver_2_23
       rect:
         serializedVersion: 2
         x: 1472
@@ -620,14 +620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6178def84a3c4c64997d028307fb19b5
-      internalID: 1020622367
+      spriteID: f1384f4c3b95ef04e984cededbc95fa3
+      internalID: -1479718885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_24
+      name: anim_magnet_rope_ROBE_ver_2_24
       rect:
         serializedVersion: 2
         x: 1536
@@ -641,14 +641,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21895c90739be0447a9d36871abb44d6
-      internalID: 791027751
+      spriteID: 0c8405b0d85764f4baf09598c4d6f81b
+      internalID: -2087891562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_25
+      name: anim_magnet_rope_ROBE_ver_2_25
       rect:
         serializedVersion: 2
         x: 1600
@@ -662,14 +662,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01ba2d26ec17a4c48baa3322d7b59285
-      internalID: -661473957
+      spriteID: 3e88118c2961e3d4392884c51366ce0f
+      internalID: 539937451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_26
+      name: anim_magnet_rope_ROBE_ver_2_26
       rect:
         serializedVersion: 2
         x: 1664
@@ -683,14 +683,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a329c4e2e4ffa343beef22aa3e5ef58
-      internalID: -1928857817
+      spriteID: 0d03056b4ee041642a30ccb3bb9147f0
+      internalID: -46636747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_27
+      name: anim_magnet_rope_ROBE_ver_2_27
       rect:
         serializedVersion: 2
         x: 1728
@@ -704,14 +704,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c81afb9a5323be4bb25357951a7fca3
-      internalID: -976869457
+      spriteID: 14108bccc4572c1468f2c93d71645d88
+      internalID: -341522280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_28
+      name: anim_magnet_rope_ROBE_ver_2_28
       rect:
         serializedVersion: 2
         x: 1792
@@ -725,14 +725,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91a8a966d627e25438561b17e5e881cc
-      internalID: 520054353
+      spriteID: c29ebed6cfdab52479c7ef2ab286f737
+      internalID: -895587392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_29
+      name: anim_magnet_rope_ROBE_ver_2_29
       rect:
         serializedVersion: 2
         x: 1856
@@ -746,14 +746,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a916e28279c4cda4ab854b2d34d8e3fc
-      internalID: 1974835900
+      spriteID: df461a6d7b2d84241814c39a54494543
+      internalID: 15617134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_30
+      name: anim_magnet_rope_ROBE_ver_2_30
       rect:
         serializedVersion: 2
         x: 1920
@@ -767,14 +767,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c50f4bb4b8fca2b41a32144d9ba2c01e
-      internalID: -735523157
+      spriteID: bf690f9e4ae31d541a3f399adb9b2910
+      internalID: -237084069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_31
+      name: anim_magnet_rope_ROBE_ver_2_31
       rect:
         serializedVersion: 2
         x: 1984
@@ -788,14 +788,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e15d64e67cfa23743972af2651cb73b9
-      internalID: 1757050067
+      spriteID: 68daad9973bd88342b823ca0e5e39910
+      internalID: 1877477749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_32
+      name: anim_magnet_rope_ROBE_ver_2_32
       rect:
         serializedVersion: 2
         x: 2048
@@ -809,14 +809,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f02551886e4789348a0d099e87a1d5cc
-      internalID: -1697133747
+      spriteID: 596678d6ab351894e9bfa11824c182f6
+      internalID: -263286209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_33
+      name: anim_magnet_rope_ROBE_ver_2_33
       rect:
         serializedVersion: 2
         x: 2112
@@ -830,14 +830,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fafd9bb40097fdd4ca2de2ac527c33cc
-      internalID: 596943754
+      spriteID: 6570377a0614a1a41bc78741f9cd638c
+      internalID: -172262476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_34
+      name: anim_magnet_rope_ROBE_ver_2_34
       rect:
         serializedVersion: 2
         x: 2176
@@ -851,14 +851,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4915e44ed426cee4d967c1d455213835
-      internalID: 21379421
+      spriteID: 3338fd5d49f499e4aa51e00c9a2f3762
+      internalID: 1885325568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_35
+      name: anim_magnet_rope_ROBE_ver_2_35
       rect:
         serializedVersion: 2
         x: 2240
@@ -872,14 +872,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ad150c1dbdefc542af8a558bbb60e46
-      internalID: -1782154517
+      spriteID: 8c4b03688c9185f4d9cd54b84e6b1f7f
+      internalID: 611530941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_36
+      name: anim_magnet_rope_ROBE_ver_2_36
       rect:
         serializedVersion: 2
         x: 2304
@@ -893,14 +893,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e5312f8c71872445b70553cf0e96932
-      internalID: -856049636
+      spriteID: 4a8206e4ef1b9fc40a418067ba4b65f9
+      internalID: -1285839439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_37
+      name: anim_magnet_rope_ROBE_ver_2_37
       rect:
         serializedVersion: 2
         x: 2368
@@ -914,14 +914,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbe9b0e11369fd949a5feb11b36673fc
-      internalID: -2116252244
+      spriteID: cf9ed1975a834df45882d55e14d294b3
+      internalID: -2003852207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_38
+      name: anim_magnet_rope_ROBE_ver_2_38
       rect:
         serializedVersion: 2
         x: 2432
@@ -935,14 +935,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e478c526cd0ca04ba2a78ef37e37734
-      internalID: -1782236615
+      spriteID: 80a05c65df6ac4445bdf0d75ad3877a9
+      internalID: -302421106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_39
+      name: anim_magnet_rope_ROBE_ver_2_39
       rect:
         serializedVersion: 2
         x: 2496
@@ -956,14 +956,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 411a7a9b0e4484b4abe3363f14408510
-      internalID: 1007146519
+      spriteID: 62f00db7552fc1844bbefa11b10df3b6
+      internalID: 1440638804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_40
+      name: anim_magnet_rope_ROBE_ver_2_40
       rect:
         serializedVersion: 2
         x: 2560
@@ -977,14 +977,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e8354e0d239457408f0de34a0c64d96
-      internalID: 650487207
+      spriteID: f91595047a225b04cb5bd277298c91f2
+      internalID: -1727334998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_41
+      name: anim_magnet_rope_ROBE_ver_2_41
       rect:
         serializedVersion: 2
         x: 2624
@@ -998,14 +998,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b13f9f5ebf8d36245a2db323e4860ce2
-      internalID: -2009046925
+      spriteID: 2c9bc8c147d13ae47874b251abc27fda
+      internalID: -2031239385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_42
+      name: anim_magnet_rope_ROBE_ver_2_42
       rect:
         serializedVersion: 2
         x: 2688
@@ -1019,14 +1019,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a941e4c1e142e5488384246587e3aad
-      internalID: 1028195530
+      spriteID: 4f21c60b7197ee341904d39798e205ee
+      internalID: 2130611335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_43
+      name: anim_magnet_rope_ROBE_ver_2_43
       rect:
         serializedVersion: 2
         x: 2752
@@ -1040,14 +1040,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bb6e935f35248b4bb53a74454b186af
-      internalID: -1031764143
+      spriteID: b5c2da630024021469464ee389b3502a
+      internalID: -917678375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_44
+      name: anim_magnet_rope_ROBE_ver_2_44
       rect:
         serializedVersion: 2
         x: 2816
@@ -1061,14 +1061,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7311e10472a9b5345a3fc25ed7d473bf
-      internalID: 1444655608
+      spriteID: d96d258658d9db34b9e4eff17d28c65c
+      internalID: -1410318276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_45
+      name: anim_magnet_rope_ROBE_ver_2_45
       rect:
         serializedVersion: 2
         x: 2880
@@ -1082,14 +1082,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eb11f345b7b3204db59e430a34a0926
-      internalID: 1438227295
+      spriteID: 8305f37195df1c14b89b37158c755821
+      internalID: -715357690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_46
+      name: anim_magnet_rope_ROBE_ver_2_46
       rect:
         serializedVersion: 2
         x: 2944
@@ -1103,14 +1103,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35269ea755528b0448317f62467b82be
-      internalID: 1330541698
+      spriteID: 6c2838bd2fe59274e99307021f066f5e
+      internalID: 21271515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_47
+      name: anim_magnet_rope_ROBE_ver_2_47
       rect:
         serializedVersion: 2
         x: 3008
@@ -1124,14 +1124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abe0229a08036bb4f89286b7f0c2432e
-      internalID: -2098470514
+      spriteID: acccd05db529d7d4d8b767d3ba5f54d1
+      internalID: 250369027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_48
+      name: anim_magnet_rope_ROBE_ver_2_48
       rect:
         serializedVersion: 2
         x: 3072
@@ -1145,14 +1145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ff217084dfcc8248b305c47821f2381
-      internalID: -262139731
+      spriteID: 1feba2c6f0da1a24180164269ede4aec
+      internalID: -1788355482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_49
+      name: anim_magnet_rope_ROBE_ver_2_49
       rect:
         serializedVersion: 2
         x: 3136
@@ -1166,14 +1166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e492bec0a07fe21449e3c3a725ac43c6
-      internalID: -1377100758
+      spriteID: 183a64ad14e484a4aa45cb77024ca499
+      internalID: 1786089694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_50
+      name: anim_magnet_rope_ROBE_ver_2_50
       rect:
         serializedVersion: 2
         x: 3200
@@ -1187,14 +1187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0252060e458c4846b602ccb1f3d28ec
-      internalID: 302483790
+      spriteID: 50c58813f93b7014c99668f2dc7958c5
+      internalID: -1241140129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_51
+      name: anim_magnet_rope_ROBE_ver_2_51
       rect:
         serializedVersion: 2
         x: 3264
@@ -1208,14 +1208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d814bc536dec7a47b67c20c9b672fe5
-      internalID: 1427526820
+      spriteID: d2ec3002eba889e43806a8af31c899a9
+      internalID: 448516475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_52
+      name: anim_magnet_rope_ROBE_ver_2_52
       rect:
         serializedVersion: 2
         x: 3328
@@ -1229,14 +1229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8e8e1b52ed24eb4b97d748830ac593b
-      internalID: 1067590249
+      spriteID: 40c198cc0af87224b94d7f44b0161b8e
+      internalID: -28085480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_53
+      name: anim_magnet_rope_ROBE_ver_2_53
       rect:
         serializedVersion: 2
         x: 3392
@@ -1250,14 +1250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a585bac83a5bc454f999d378bd734806
-      internalID: -192655327
+      spriteID: c79e5269a6fc30b459e159403cc77704
+      internalID: -715811716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_54
+      name: anim_magnet_rope_ROBE_ver_2_54
       rect:
         serializedVersion: 2
         x: 3456
@@ -1271,14 +1271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c137129ea530e041a51ad36eb59ad0b
-      internalID: 1387687157
+      spriteID: 4289a9eddd18e984ca18061200ffce0c
+      internalID: -134300923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_55
+      name: anim_magnet_rope_ROBE_ver_2_55
       rect:
         serializedVersion: 2
         x: 3520
@@ -1292,14 +1292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c9e05e75458ce74d93162a304373bc5
-      internalID: 1696726495
+      spriteID: 351372e42b73e904e9f79da538e4a1ae
+      internalID: 787128272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_56
+      name: anim_magnet_rope_ROBE_ver_2_56
       rect:
         serializedVersion: 2
         x: 3584
@@ -1313,14 +1313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a55821f136ce4d48b31cbbd22f2a05a
-      internalID: 1587062630
+      spriteID: 359edc04664dea64aaf1461c31ad80fc
+      internalID: -437629992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_57
+      name: anim_magnet_rope_ROBE_ver_2_57
       rect:
         serializedVersion: 2
         x: 3648
@@ -1334,14 +1334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2abe8feb7a6ab4c46a235ace76692427
-      internalID: -1859935052
+      spriteID: 6ce5bb371c296394c9eff4177203d7ee
+      internalID: 1689541812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_58
+      name: anim_magnet_rope_ROBE_ver_2_58
       rect:
         serializedVersion: 2
         x: 3712
@@ -1355,14 +1355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e25b39dd7249a5047bb05d9614cf2c84
-      internalID: -1725134269
+      spriteID: 4b1745ebf3e46a8409f88408427d1791
+      internalID: -440596057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_59
+      name: anim_magnet_rope_ROBE_ver_2_59
       rect:
         serializedVersion: 2
         x: 3776
@@ -1376,14 +1376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eeaac81589cfce64fbcd40ae5a76ba6a
-      internalID: -678232880
+      spriteID: b7d8275718294224da416b55ac5373fb
+      internalID: -1859523259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_60
+      name: anim_magnet_rope_ROBE_ver_2_60
       rect:
         serializedVersion: 2
         x: 3840
@@ -1397,8 +1397,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 091bffe06bd535b41b693ba896ea6dd7
-      internalID: 1898530170
+      spriteID: 5f0bc1d822e2db54196dd52b9e4d8df0
+      internalID: 922014599
       vertices: []
       indices: 
       edges: []
@@ -1414,67 +1414,67 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      anim_magnet_rope_0: 715212770
-      anim_magnet_rope_1: 58645856
-      anim_magnet_rope_10: 756268546
-      anim_magnet_rope_11: 1465543591
-      anim_magnet_rope_12: 1723598862
-      anim_magnet_rope_13: 1583250161
-      anim_magnet_rope_14: -1898994890
-      anim_magnet_rope_15: -103503003
-      anim_magnet_rope_16: 991897350
-      anim_magnet_rope_17: -660442333
-      anim_magnet_rope_18: -1358544284
-      anim_magnet_rope_19: -611496550
-      anim_magnet_rope_2: 1603342421
-      anim_magnet_rope_20: 988093320
-      anim_magnet_rope_21: 311267244
-      anim_magnet_rope_22: -1263727015
-      anim_magnet_rope_23: 1020622367
-      anim_magnet_rope_24: 791027751
-      anim_magnet_rope_25: -661473957
-      anim_magnet_rope_26: -1928857817
-      anim_magnet_rope_27: -976869457
-      anim_magnet_rope_28: 520054353
-      anim_magnet_rope_29: 1974835900
-      anim_magnet_rope_3: -1576704957
-      anim_magnet_rope_30: -735523157
-      anim_magnet_rope_31: 1757050067
-      anim_magnet_rope_32: -1697133747
-      anim_magnet_rope_33: 596943754
-      anim_magnet_rope_34: 21379421
-      anim_magnet_rope_35: -1782154517
-      anim_magnet_rope_36: -856049636
-      anim_magnet_rope_37: -2116252244
-      anim_magnet_rope_38: -1782236615
-      anim_magnet_rope_39: 1007146519
-      anim_magnet_rope_4: 574485086
-      anim_magnet_rope_40: 650487207
-      anim_magnet_rope_41: -2009046925
-      anim_magnet_rope_42: 1028195530
-      anim_magnet_rope_43: -1031764143
-      anim_magnet_rope_44: 1444655608
-      anim_magnet_rope_45: 1438227295
-      anim_magnet_rope_46: 1330541698
-      anim_magnet_rope_47: -2098470514
-      anim_magnet_rope_48: -262139731
-      anim_magnet_rope_49: -1377100758
-      anim_magnet_rope_5: -1439021096
-      anim_magnet_rope_50: 302483790
-      anim_magnet_rope_51: 1427526820
-      anim_magnet_rope_52: 1067590249
-      anim_magnet_rope_53: -192655327
-      anim_magnet_rope_54: 1387687157
-      anim_magnet_rope_55: 1696726495
-      anim_magnet_rope_56: 1587062630
-      anim_magnet_rope_57: -1859935052
-      anim_magnet_rope_58: -1725134269
-      anim_magnet_rope_59: -678232880
-      anim_magnet_rope_6: -3586460
-      anim_magnet_rope_60: 1898530170
-      anim_magnet_rope_7: 1112909648
-      anim_magnet_rope_8: 981113157
-      anim_magnet_rope_9: 1243475969
+      anim_magnet_rope_ROBE_ver_2_0: -1579905553
+      anim_magnet_rope_ROBE_ver_2_1: 280005316
+      anim_magnet_rope_ROBE_ver_2_10: -2068611646
+      anim_magnet_rope_ROBE_ver_2_11: 1526182138
+      anim_magnet_rope_ROBE_ver_2_12: -1338697256
+      anim_magnet_rope_ROBE_ver_2_13: 689895077
+      anim_magnet_rope_ROBE_ver_2_14: -1322254998
+      anim_magnet_rope_ROBE_ver_2_15: -1473184607
+      anim_magnet_rope_ROBE_ver_2_16: 1023762024
+      anim_magnet_rope_ROBE_ver_2_17: 833467912
+      anim_magnet_rope_ROBE_ver_2_18: 1346030781
+      anim_magnet_rope_ROBE_ver_2_19: 532198430
+      anim_magnet_rope_ROBE_ver_2_2: -163222003
+      anim_magnet_rope_ROBE_ver_2_20: 1719426956
+      anim_magnet_rope_ROBE_ver_2_21: 1596780947
+      anim_magnet_rope_ROBE_ver_2_22: -700469278
+      anim_magnet_rope_ROBE_ver_2_23: -1479718885
+      anim_magnet_rope_ROBE_ver_2_24: -2087891562
+      anim_magnet_rope_ROBE_ver_2_25: 539937451
+      anim_magnet_rope_ROBE_ver_2_26: -46636747
+      anim_magnet_rope_ROBE_ver_2_27: -341522280
+      anim_magnet_rope_ROBE_ver_2_28: -895587392
+      anim_magnet_rope_ROBE_ver_2_29: 15617134
+      anim_magnet_rope_ROBE_ver_2_3: -1307395710
+      anim_magnet_rope_ROBE_ver_2_30: -237084069
+      anim_magnet_rope_ROBE_ver_2_31: 1877477749
+      anim_magnet_rope_ROBE_ver_2_32: -263286209
+      anim_magnet_rope_ROBE_ver_2_33: -172262476
+      anim_magnet_rope_ROBE_ver_2_34: 1885325568
+      anim_magnet_rope_ROBE_ver_2_35: 611530941
+      anim_magnet_rope_ROBE_ver_2_36: -1285839439
+      anim_magnet_rope_ROBE_ver_2_37: -2003852207
+      anim_magnet_rope_ROBE_ver_2_38: -302421106
+      anim_magnet_rope_ROBE_ver_2_39: 1440638804
+      anim_magnet_rope_ROBE_ver_2_4: 629124361
+      anim_magnet_rope_ROBE_ver_2_40: -1727334998
+      anim_magnet_rope_ROBE_ver_2_41: -2031239385
+      anim_magnet_rope_ROBE_ver_2_42: 2130611335
+      anim_magnet_rope_ROBE_ver_2_43: -917678375
+      anim_magnet_rope_ROBE_ver_2_44: -1410318276
+      anim_magnet_rope_ROBE_ver_2_45: -715357690
+      anim_magnet_rope_ROBE_ver_2_46: 21271515
+      anim_magnet_rope_ROBE_ver_2_47: 250369027
+      anim_magnet_rope_ROBE_ver_2_48: -1788355482
+      anim_magnet_rope_ROBE_ver_2_49: 1786089694
+      anim_magnet_rope_ROBE_ver_2_5: 328681736
+      anim_magnet_rope_ROBE_ver_2_50: -1241140129
+      anim_magnet_rope_ROBE_ver_2_51: 448516475
+      anim_magnet_rope_ROBE_ver_2_52: -28085480
+      anim_magnet_rope_ROBE_ver_2_53: -715811716
+      anim_magnet_rope_ROBE_ver_2_54: -134300923
+      anim_magnet_rope_ROBE_ver_2_55: 787128272
+      anim_magnet_rope_ROBE_ver_2_56: -437629992
+      anim_magnet_rope_ROBE_ver_2_57: 1689541812
+      anim_magnet_rope_ROBE_ver_2_58: -440596057
+      anim_magnet_rope_ROBE_ver_2_59: -1859523259
+      anim_magnet_rope_ROBE_ver_2_6: 1042736627
+      anim_magnet_rope_ROBE_ver_2_60: 922014599
+      anim_magnet_rope_ROBE_ver_2_7: -623018403
+      anim_magnet_rope_ROBE_ver_2_8: -553939062
+      anim_magnet_rope_ROBE_ver_2_9: -906070647
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

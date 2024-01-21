@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -9,9 +10,22 @@ public class InteractableObject : MonoBehaviour
     public GameObject alternativePrefab;
     private bool selected;
     public float reach=1;
+    private float animationTimer;
 
     void Update()
     {  
+        if (animationTimer < 0.2f)
+        {
+            animationTimer+=Time.deltaTime;
+        }
+        else
+        {
+            Animator animator = GetComponentInChildren<Animator>();
+            if (animator != null)
+            {
+                animator.SetBool("AnimationStart", false);
+            }
+        }
         if (Input.GetMouseButtonDown(0))
         {
             if (EventSystem.current.IsPointerOverGameObject() || GameManager.gameState != 1)
@@ -46,5 +60,10 @@ public class InteractableObject : MonoBehaviour
             }
             selected=true;
         }
+    }
+
+    public void StartAnimation() {
+        GetComponentInChildren<Animator>().SetBool("AnimationStart", true);
+        animationTimer=0;
     }
 }

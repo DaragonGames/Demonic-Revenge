@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 59391798c5e9cd54b9c9d726da4804ad
+guid: 7f2dddfd919cd2f4191a381dec2ac18f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,9 +70,9 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 16384
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,1282 +123,1177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: anim_magnet_rope_0
+      name: anim_character_frightened_ROBE_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0953b2a989651cf459c21c58bfaa8580
-      internalID: 715212770
+      spriteID: 46d94bd70ddd2944ca1bb3ae9029a454
+      internalID: -1185166479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_1
+      name: anim_character_frightened_ROBE_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 26
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 952a281c029131245a854d1a49c064f1
-      internalID: 58645856
+      spriteID: 41f63c088c3c8104b8b9f53ac03b841c
+      internalID: -1125563289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_2
+      name: anim_character_frightened_ROBE_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 52
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01047b471bbb1a646a2bffbea9d07ec7
-      internalID: 1603342421
+      spriteID: e0af24e7c5c4b594a934883d9ed4417b
+      internalID: -2073861647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_3
+      name: anim_character_frightened_ROBE_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 78
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d1e0d42728dd0e449639bab123a619f
-      internalID: -1576704957
+      spriteID: d05415bab23977a4097b24f02df2c031
+      internalID: 420686800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_4
+      name: anim_character_frightened_ROBE_4
       rect:
         serializedVersion: 2
-        x: 256
+        x: 104
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed721297492d39b418be00231f55ee9a
-      internalID: 574485086
+      spriteID: 7feaa04f878dd5a4ea5f3714392191ef
+      internalID: -627422538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_5
+      name: anim_character_frightened_ROBE_5
       rect:
         serializedVersion: 2
-        x: 320
+        x: 130
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 734b924020fa6f24aad1afa9b476e626
-      internalID: -1439021096
+      spriteID: 62d457c7d8083a54c962b3dfcf6e9264
+      internalID: -17772253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_6
+      name: anim_character_frightened_ROBE_6
       rect:
         serializedVersion: 2
-        x: 384
+        x: 156
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6905ad1d7ecec354a807bb6378d026c1
-      internalID: -3586460
+      spriteID: a5a270555aa4b3341b06bd0d53784d03
+      internalID: 1806906503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_7
+      name: anim_character_frightened_ROBE_7
       rect:
         serializedVersion: 2
-        x: 448
+        x: 182
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e23e393a71d7304e862c17b29c8d794
-      internalID: 1112909648
+      spriteID: 3a720634563e72347a8e634df76ccad2
+      internalID: -626141178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_8
+      name: anim_character_frightened_ROBE_8
       rect:
         serializedVersion: 2
-        x: 512
+        x: 208
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d1ac192f53446d4384600ec5c2953a6
-      internalID: 981113157
+      spriteID: f4b67f590dde3154fa01439066c3b8f2
+      internalID: -322583202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_9
+      name: anim_character_frightened_ROBE_9
       rect:
         serializedVersion: 2
-        x: 576
+        x: 234
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef9dd794363d3da4d8cb8063d5b4a853
-      internalID: 1243475969
+      spriteID: bcae499768e631b4286b6cfb29964359
+      internalID: -1032475303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_10
+      name: anim_character_frightened_ROBE_10
       rect:
         serializedVersion: 2
-        x: 640
+        x: 260
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97a058b0c7fdf084084d5dfc3c33d4e4
-      internalID: 756268546
+      spriteID: 8526cbb96dc9b424bbbb527ba69a75f3
+      internalID: -1851910045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_11
+      name: anim_character_frightened_ROBE_11
       rect:
         serializedVersion: 2
-        x: 704
+        x: 286
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d9c89f92e48df46a8b9196666aa7c0
-      internalID: 1465543591
+      spriteID: 077ff71e6109f0e46a6d24d7d4f501a1
+      internalID: -1594010011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_12
+      name: anim_character_frightened_ROBE_12
       rect:
         serializedVersion: 2
-        x: 768
+        x: 312
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43dabb440842ec64688872e642f70e09
-      internalID: 1723598862
+      spriteID: 32a948d2912d71d4caca5acda59e3f39
+      internalID: -1514336712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_13
+      name: anim_character_frightened_ROBE_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668182d0a78d0284ca33b996ae750df2
+      internalID: 733356322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_14
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9671d04bb78d93042b034f4dfbbab325
+      internalID: -584820053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_15
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6227b53c2e7d33c4d86bfb336a07d1a3
+      internalID: 1129709051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_16
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e469f89f2f8d0914c9609308e58c03e9
+      internalID: 397999830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_17
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7c54c3ada5a5e45bc51bcda2146e0d
+      internalID: -1531984649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_18
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab38926fff6bccd4cb2bd3e02fbcd381
+      internalID: -1276229021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_19
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e023b47e6b296c479a1e3abcab3d53a
+      internalID: -163213578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_20
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c3b81f2db9b1c49a7310f6ec71ec4d
+      internalID: 1682637502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_21
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73188e13e3afedc45bcac15cebe76720
+      internalID: 1482949194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_22
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddacab2bd5b97da40bd9479cdb178602
+      internalID: -1391707799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_23
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3099a9282dcd054d90151e3cf5203ff
+      internalID: 2034759068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_24
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0306b4d24945549a88a17fec6b5b5f
+      internalID: -617172868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_25
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbf7fc8ed556be46ad2fa72b97e6ac0
+      internalID: -840914828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_26
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb32be15ae9bc824b82a25388f9f01dc
+      internalID: -1960283367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_27
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b5c1066f070a04ca5402ebdaf42d3a
+      internalID: 1925704463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_28
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfabd8e4f2b766d4ba950f691c7b93b0
+      internalID: 720036368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_29
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0141434432672dd4dbb5445e7d6f1c49
+      internalID: 1251428277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_30
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a920ae19c0f234082d893fc6dfd303
+      internalID: -113006086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_31
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 0
+        width: 26
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.1354167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c171132eb601340851af57c4ec2023
+      internalID: 213388217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_character_frightened_ROBE_32
       rect:
         serializedVersion: 2
         x: 832
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc92b2333bd90f7418433e9c819f8cdf
-      internalID: 1583250161
+      spriteID: d55ac24ee2cfc864680f7d7d1e9a7921
+      internalID: -1765672920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_14
+      name: anim_character_frightened_ROBE_33
       rect:
         serializedVersion: 2
-        x: 896
+        x: 858
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 056566250de61e347bcaae9cdb60a2d9
-      internalID: -1898994890
+      spriteID: fb83ab9fc5239b04594cfd4de5276b33
+      internalID: -1977870752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_15
+      name: anim_character_frightened_ROBE_34
       rect:
         serializedVersion: 2
-        x: 960
+        x: 884
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80527e58316819942ae381d4c980f6ac
-      internalID: -103503003
+      spriteID: 05224e036443bfa4893688b1109fba92
+      internalID: -35453425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_16
+      name: anim_character_frightened_ROBE_35
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 910
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69f0b56457feb884abd7fc3b75467e3c
-      internalID: 991897350
+      spriteID: ec314dbba6d0949409cd658af7ea04a9
+      internalID: -837113165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_17
+      name: anim_character_frightened_ROBE_36
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 936
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29e3669ec36a54047aa9887860cb6867
-      internalID: -660442333
+      spriteID: f91b98944e50ade468744089007a903c
+      internalID: -1868597719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_18
+      name: anim_character_frightened_ROBE_37
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 962
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 554c1bdf02e56fa438abfb2524212e04
-      internalID: -1358544284
+      spriteID: ddfbc40c85447bd409a4ac5be157b221
+      internalID: 118780359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_19
+      name: anim_character_frightened_ROBE_38
       rect:
         serializedVersion: 2
-        x: 1216
+        x: 988
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c32a58bd763c700418d62f7fc031921a
-      internalID: -611496550
+      spriteID: 4d7ee71ae6acbd848a2b2c2c14b0e085
+      internalID: -653766973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_20
+      name: anim_character_frightened_ROBE_39
       rect:
         serializedVersion: 2
-        x: 1280
+        x: 1014
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99815986edd669246a926de6da4e70e7
-      internalID: 988093320
+      spriteID: 7b627e00bac69544ba6a592da4ed4617
+      internalID: -1485392635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_21
+      name: anim_character_frightened_ROBE_40
       rect:
         serializedVersion: 2
-        x: 1344
+        x: 1040
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b78f8dd0f5cf664688d7ee9539c28ae
-      internalID: 311267244
+      spriteID: dde5df84d3149054eae55775cc77e0aa
+      internalID: -165269346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_22
+      name: anim_character_frightened_ROBE_41
       rect:
         serializedVersion: 2
-        x: 1408
+        x: 1066
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 771ef775d5ab91343973ada403242855
-      internalID: -1263727015
+      spriteID: 7451f9d2f17eb5844bbe685a0445f32f
+      internalID: -536525888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_23
+      name: anim_character_frightened_ROBE_42
       rect:
         serializedVersion: 2
-        x: 1472
+        x: 1092
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6178def84a3c4c64997d028307fb19b5
-      internalID: 1020622367
+      spriteID: ff009fb7b175dbf44b3135ae15256f1d
+      internalID: 23240349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_24
+      name: anim_character_frightened_ROBE_43
       rect:
         serializedVersion: 2
-        x: 1536
+        x: 1118
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21895c90739be0447a9d36871abb44d6
-      internalID: 791027751
+      spriteID: 13a9802910ab8a849988a4b16729e570
+      internalID: 905570983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_25
+      name: anim_character_frightened_ROBE_44
       rect:
         serializedVersion: 2
-        x: 1600
+        x: 1144
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01ba2d26ec17a4c48baa3322d7b59285
-      internalID: -661473957
+      spriteID: 8f6288c3603f72347a5e6ae54d7c5eab
+      internalID: 2022985593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_26
+      name: anim_character_frightened_ROBE_45
       rect:
         serializedVersion: 2
-        x: 1664
+        x: 1170
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a329c4e2e4ffa343beef22aa3e5ef58
-      internalID: -1928857817
+      spriteID: 476ea5e10a952ee4290e0a798a50f70b
+      internalID: 1071387654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_27
+      name: anim_character_frightened_ROBE_46
       rect:
         serializedVersion: 2
-        x: 1728
+        x: 1196
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c81afb9a5323be4bb25357951a7fca3
-      internalID: -976869457
+      spriteID: 3f8d535b41f4d6341802542fa3f4e6cc
+      internalID: 644218516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_28
+      name: anim_character_frightened_ROBE_47
       rect:
         serializedVersion: 2
-        x: 1792
+        x: 1222
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91a8a966d627e25438561b17e5e881cc
-      internalID: 520054353
+      spriteID: 43b9851420beabd4cb2bf27c1a2d6b29
+      internalID: 1140994571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_29
+      name: anim_character_frightened_ROBE_48
       rect:
         serializedVersion: 2
-        x: 1856
+        x: 1248
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a916e28279c4cda4ab854b2d34d8e3fc
-      internalID: 1974835900
+      spriteID: d920ede730b0aa146a975155a3aa361a
+      internalID: -2050554434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_30
+      name: anim_character_frightened_ROBE_49
       rect:
         serializedVersion: 2
-        x: 1920
+        x: 1274
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c50f4bb4b8fca2b41a32144d9ba2c01e
-      internalID: -735523157
+      spriteID: adb831af819ac22499282c21991a7502
+      internalID: -1918764218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_31
+      name: anim_character_frightened_ROBE_50
       rect:
         serializedVersion: 2
-        x: 1984
+        x: 1300
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e15d64e67cfa23743972af2651cb73b9
-      internalID: 1757050067
+      spriteID: 8f5d2e6db56908a499657d69459b7224
+      internalID: -1593104974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_32
+      name: anim_character_frightened_ROBE_51
       rect:
         serializedVersion: 2
-        x: 2048
+        x: 1326
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f02551886e4789348a0d099e87a1d5cc
-      internalID: -1697133747
+      spriteID: da3cf1b1c2fd76244b7438f7ce7980c8
+      internalID: -572808067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_33
+      name: anim_character_frightened_ROBE_52
       rect:
         serializedVersion: 2
-        x: 2112
+        x: 1352
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fafd9bb40097fdd4ca2de2ac527c33cc
-      internalID: 596943754
+      spriteID: f8e8b91886ab67f47abd34a645d812d8
+      internalID: 605413052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_34
+      name: anim_character_frightened_ROBE_53
       rect:
         serializedVersion: 2
-        x: 2176
+        x: 1378
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4915e44ed426cee4d967c1d455213835
-      internalID: 21379421
+      spriteID: b89653800edd9da4da81024ebe9bbade
+      internalID: 1336221917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_35
+      name: anim_character_frightened_ROBE_54
       rect:
         serializedVersion: 2
-        x: 2240
+        x: 1404
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ad150c1dbdefc542af8a558bbb60e46
-      internalID: -1782154517
+      spriteID: 9591c3f21cc329a4bb34d1d2400111a8
+      internalID: -367268985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_36
+      name: anim_character_frightened_ROBE_55
       rect:
         serializedVersion: 2
-        x: 2304
+        x: 1430
         y: 0
-        width: 64
-        height: 64
+        width: 26
+        height: 48
       alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+      pivot: {x: 0.4791667, y: 0.1354167}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e5312f8c71872445b70553cf0e96932
-      internalID: -856049636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_37
-      rect:
-        serializedVersion: 2
-        x: 2368
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbe9b0e11369fd949a5feb11b36673fc
-      internalID: -2116252244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_38
-      rect:
-        serializedVersion: 2
-        x: 2432
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e478c526cd0ca04ba2a78ef37e37734
-      internalID: -1782236615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_39
-      rect:
-        serializedVersion: 2
-        x: 2496
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 411a7a9b0e4484b4abe3363f14408510
-      internalID: 1007146519
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_40
-      rect:
-        serializedVersion: 2
-        x: 2560
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e8354e0d239457408f0de34a0c64d96
-      internalID: 650487207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_41
-      rect:
-        serializedVersion: 2
-        x: 2624
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b13f9f5ebf8d36245a2db323e4860ce2
-      internalID: -2009046925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_42
-      rect:
-        serializedVersion: 2
-        x: 2688
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a941e4c1e142e5488384246587e3aad
-      internalID: 1028195530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_43
-      rect:
-        serializedVersion: 2
-        x: 2752
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bb6e935f35248b4bb53a74454b186af
-      internalID: -1031764143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_44
-      rect:
-        serializedVersion: 2
-        x: 2816
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7311e10472a9b5345a3fc25ed7d473bf
-      internalID: 1444655608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_45
-      rect:
-        serializedVersion: 2
-        x: 2880
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5eb11f345b7b3204db59e430a34a0926
-      internalID: 1438227295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_46
-      rect:
-        serializedVersion: 2
-        x: 2944
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35269ea755528b0448317f62467b82be
-      internalID: 1330541698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_47
-      rect:
-        serializedVersion: 2
-        x: 3008
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abe0229a08036bb4f89286b7f0c2432e
-      internalID: -2098470514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_48
-      rect:
-        serializedVersion: 2
-        x: 3072
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ff217084dfcc8248b305c47821f2381
-      internalID: -262139731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_49
-      rect:
-        serializedVersion: 2
-        x: 3136
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e492bec0a07fe21449e3c3a725ac43c6
-      internalID: -1377100758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_50
-      rect:
-        serializedVersion: 2
-        x: 3200
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0252060e458c4846b602ccb1f3d28ec
-      internalID: 302483790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_51
-      rect:
-        serializedVersion: 2
-        x: 3264
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d814bc536dec7a47b67c20c9b672fe5
-      internalID: 1427526820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_52
-      rect:
-        serializedVersion: 2
-        x: 3328
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8e8e1b52ed24eb4b97d748830ac593b
-      internalID: 1067590249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_53
-      rect:
-        serializedVersion: 2
-        x: 3392
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a585bac83a5bc454f999d378bd734806
-      internalID: -192655327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_54
-      rect:
-        serializedVersion: 2
-        x: 3456
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c137129ea530e041a51ad36eb59ad0b
-      internalID: 1387687157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_55
-      rect:
-        serializedVersion: 2
-        x: 3520
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c9e05e75458ce74d93162a304373bc5
-      internalID: 1696726495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_56
-      rect:
-        serializedVersion: 2
-        x: 3584
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a55821f136ce4d48b31cbbd22f2a05a
-      internalID: 1587062630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_57
-      rect:
-        serializedVersion: 2
-        x: 3648
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2abe8feb7a6ab4c46a235ace76692427
-      internalID: -1859935052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_58
-      rect:
-        serializedVersion: 2
-        x: 3712
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e25b39dd7249a5047bb05d9614cf2c84
-      internalID: -1725134269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_59
-      rect:
-        serializedVersion: 2
-        x: 3776
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eeaac81589cfce64fbcd40ae5a76ba6a
-      internalID: -678232880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_60
-      rect:
-        serializedVersion: 2
-        x: 3840
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 091bffe06bd535b41b693ba896ea6dd7
-      internalID: 1898530170
+      spriteID: 213b1b452eb53f442aebce69f60dc840
+      internalID: 398580781
       vertices: []
       indices: 
       edges: []
@@ -1414,67 +1309,62 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      anim_magnet_rope_0: 715212770
-      anim_magnet_rope_1: 58645856
-      anim_magnet_rope_10: 756268546
-      anim_magnet_rope_11: 1465543591
-      anim_magnet_rope_12: 1723598862
-      anim_magnet_rope_13: 1583250161
-      anim_magnet_rope_14: -1898994890
-      anim_magnet_rope_15: -103503003
-      anim_magnet_rope_16: 991897350
-      anim_magnet_rope_17: -660442333
-      anim_magnet_rope_18: -1358544284
-      anim_magnet_rope_19: -611496550
-      anim_magnet_rope_2: 1603342421
-      anim_magnet_rope_20: 988093320
-      anim_magnet_rope_21: 311267244
-      anim_magnet_rope_22: -1263727015
-      anim_magnet_rope_23: 1020622367
-      anim_magnet_rope_24: 791027751
-      anim_magnet_rope_25: -661473957
-      anim_magnet_rope_26: -1928857817
-      anim_magnet_rope_27: -976869457
-      anim_magnet_rope_28: 520054353
-      anim_magnet_rope_29: 1974835900
-      anim_magnet_rope_3: -1576704957
-      anim_magnet_rope_30: -735523157
-      anim_magnet_rope_31: 1757050067
-      anim_magnet_rope_32: -1697133747
-      anim_magnet_rope_33: 596943754
-      anim_magnet_rope_34: 21379421
-      anim_magnet_rope_35: -1782154517
-      anim_magnet_rope_36: -856049636
-      anim_magnet_rope_37: -2116252244
-      anim_magnet_rope_38: -1782236615
-      anim_magnet_rope_39: 1007146519
-      anim_magnet_rope_4: 574485086
-      anim_magnet_rope_40: 650487207
-      anim_magnet_rope_41: -2009046925
-      anim_magnet_rope_42: 1028195530
-      anim_magnet_rope_43: -1031764143
-      anim_magnet_rope_44: 1444655608
-      anim_magnet_rope_45: 1438227295
-      anim_magnet_rope_46: 1330541698
-      anim_magnet_rope_47: -2098470514
-      anim_magnet_rope_48: -262139731
-      anim_magnet_rope_49: -1377100758
-      anim_magnet_rope_5: -1439021096
-      anim_magnet_rope_50: 302483790
-      anim_magnet_rope_51: 1427526820
-      anim_magnet_rope_52: 1067590249
-      anim_magnet_rope_53: -192655327
-      anim_magnet_rope_54: 1387687157
-      anim_magnet_rope_55: 1696726495
-      anim_magnet_rope_56: 1587062630
-      anim_magnet_rope_57: -1859935052
-      anim_magnet_rope_58: -1725134269
-      anim_magnet_rope_59: -678232880
-      anim_magnet_rope_6: -3586460
-      anim_magnet_rope_60: 1898530170
-      anim_magnet_rope_7: 1112909648
-      anim_magnet_rope_8: 981113157
-      anim_magnet_rope_9: 1243475969
+      anim_character_frightened_ROBE_0: -1185166479
+      anim_character_frightened_ROBE_1: -1125563289
+      anim_character_frightened_ROBE_10: -1851910045
+      anim_character_frightened_ROBE_11: -1594010011
+      anim_character_frightened_ROBE_12: -1514336712
+      anim_character_frightened_ROBE_13: 733356322
+      anim_character_frightened_ROBE_14: -584820053
+      anim_character_frightened_ROBE_15: 1129709051
+      anim_character_frightened_ROBE_16: 397999830
+      anim_character_frightened_ROBE_17: -1531984649
+      anim_character_frightened_ROBE_18: -1276229021
+      anim_character_frightened_ROBE_19: -163213578
+      anim_character_frightened_ROBE_2: -2073861647
+      anim_character_frightened_ROBE_20: 1682637502
+      anim_character_frightened_ROBE_21: 1482949194
+      anim_character_frightened_ROBE_22: -1391707799
+      anim_character_frightened_ROBE_23: 2034759068
+      anim_character_frightened_ROBE_24: -617172868
+      anim_character_frightened_ROBE_25: -840914828
+      anim_character_frightened_ROBE_26: -1960283367
+      anim_character_frightened_ROBE_27: 1925704463
+      anim_character_frightened_ROBE_28: 720036368
+      anim_character_frightened_ROBE_29: 1251428277
+      anim_character_frightened_ROBE_3: 420686800
+      anim_character_frightened_ROBE_30: -113006086
+      anim_character_frightened_ROBE_31: 213388217
+      anim_character_frightened_ROBE_32: -1765672920
+      anim_character_frightened_ROBE_33: -1977870752
+      anim_character_frightened_ROBE_34: -35453425
+      anim_character_frightened_ROBE_35: -837113165
+      anim_character_frightened_ROBE_36: -1868597719
+      anim_character_frightened_ROBE_37: 118780359
+      anim_character_frightened_ROBE_38: -653766973
+      anim_character_frightened_ROBE_39: -1485392635
+      anim_character_frightened_ROBE_4: -627422538
+      anim_character_frightened_ROBE_40: -165269346
+      anim_character_frightened_ROBE_41: -536525888
+      anim_character_frightened_ROBE_42: 23240349
+      anim_character_frightened_ROBE_43: 905570983
+      anim_character_frightened_ROBE_44: 2022985593
+      anim_character_frightened_ROBE_45: 1071387654
+      anim_character_frightened_ROBE_46: 644218516
+      anim_character_frightened_ROBE_47: 1140994571
+      anim_character_frightened_ROBE_48: -2050554434
+      anim_character_frightened_ROBE_49: -1918764218
+      anim_character_frightened_ROBE_5: -17772253
+      anim_character_frightened_ROBE_50: -1593104974
+      anim_character_frightened_ROBE_51: -572808067
+      anim_character_frightened_ROBE_52: 605413052
+      anim_character_frightened_ROBE_53: 1336221917
+      anim_character_frightened_ROBE_54: -367268985
+      anim_character_frightened_ROBE_55: 398580781
+      anim_character_frightened_ROBE_6: 1806906503
+      anim_character_frightened_ROBE_7: -626141178
+      anim_character_frightened_ROBE_8: -322583202
+      anim_character_frightened_ROBE_9: -1032475303
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

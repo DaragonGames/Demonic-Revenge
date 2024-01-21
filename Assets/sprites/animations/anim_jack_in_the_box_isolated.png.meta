@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 59391798c5e9cd54b9c9d726da4804ad
+guid: 21566db402ec29847b219ca934357eb3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
-    resizeAlgorithm: 1
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,1282 +123,1177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: anim_magnet_rope_0
+      name: anim_jack_in_the_box_isolated_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0953b2a989651cf459c21c58bfaa8580
-      internalID: 715212770
+      spriteID: 34f4e5c7970f17e428ae6d7b660a4d52
+      internalID: 32093650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_1
+      name: anim_jack_in_the_box_isolated_1
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 952a281c029131245a854d1a49c064f1
-      internalID: 58645856
+      spriteID: aa740ea729fa02a49880f11cb5dfbb0d
+      internalID: 1278950526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_2
+      name: anim_jack_in_the_box_isolated_2
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01047b471bbb1a646a2bffbea9d07ec7
-      internalID: 1603342421
+      spriteID: 04bbf06e912b14c4cb2c7479fe9604c3
+      internalID: 86015754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_3
+      name: anim_jack_in_the_box_isolated_3
       rect:
         serializedVersion: 2
         x: 192
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d1e0d42728dd0e449639bab123a619f
-      internalID: -1576704957
+      spriteID: 1f9add4a8a8e7d74a951da1c097b04e0
+      internalID: 1349378975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_4
+      name: anim_jack_in_the_box_isolated_4
       rect:
         serializedVersion: 2
         x: 256
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed721297492d39b418be00231f55ee9a
-      internalID: 574485086
+      spriteID: 1f559ad95ff3ae34ba11592779d38078
+      internalID: 757397552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_5
+      name: anim_jack_in_the_box_isolated_5
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 734b924020fa6f24aad1afa9b476e626
-      internalID: -1439021096
+      spriteID: 6c818ad3d496e4f4cba95b0c4eec48ac
+      internalID: 126657275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_6
+      name: anim_jack_in_the_box_isolated_6
       rect:
         serializedVersion: 2
         x: 384
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6905ad1d7ecec354a807bb6378d026c1
-      internalID: -3586460
+      spriteID: 22366de596798b544a932c052b44af69
+      internalID: -1244065467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_7
+      name: anim_jack_in_the_box_isolated_7
       rect:
         serializedVersion: 2
         x: 448
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e23e393a71d7304e862c17b29c8d794
-      internalID: 1112909648
+      spriteID: ec079112a62beeb42b476a583cb89396
+      internalID: -1069243515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_8
+      name: anim_jack_in_the_box_isolated_8
       rect:
         serializedVersion: 2
         x: 512
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d1ac192f53446d4384600ec5c2953a6
-      internalID: 981113157
+      spriteID: 54e68bbf049263543be2c2acfae77360
+      internalID: -1367776311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_9
+      name: anim_jack_in_the_box_isolated_9
       rect:
         serializedVersion: 2
         x: 576
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef9dd794363d3da4d8cb8063d5b4a853
-      internalID: 1243475969
+      spriteID: 5d6066f099d4c8c48a6a6484ed9a1673
+      internalID: -475440546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_10
+      name: anim_jack_in_the_box_isolated_10
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97a058b0c7fdf084084d5dfc3c33d4e4
-      internalID: 756268546
+      spriteID: 30356dcd67e2ec247883352b3f1bf832
+      internalID: -1525201375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_11
+      name: anim_jack_in_the_box_isolated_11
       rect:
         serializedVersion: 2
         x: 704
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d9c89f92e48df46a8b9196666aa7c0
-      internalID: 1465543591
+      spriteID: 6365a7c44dd9ddb4fbc13c5ed47abde5
+      internalID: -1812822540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_12
+      name: anim_jack_in_the_box_isolated_12
       rect:
         serializedVersion: 2
         x: 768
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43dabb440842ec64688872e642f70e09
-      internalID: 1723598862
+      spriteID: c7b38b4787477014e83a26f8e4b63e2e
+      internalID: -892262804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_13
+      name: anim_jack_in_the_box_isolated_13
       rect:
         serializedVersion: 2
         x: 832
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc92b2333bd90f7418433e9c819f8cdf
-      internalID: 1583250161
+      spriteID: 46bdf7c8c50566f47b8b7dd9b85dd90d
+      internalID: 644665496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_14
+      name: anim_jack_in_the_box_isolated_14
       rect:
         serializedVersion: 2
         x: 896
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 056566250de61e347bcaae9cdb60a2d9
-      internalID: -1898994890
+      spriteID: 104ea396e0e590d48becb8555aade2e7
+      internalID: -1556094922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_15
+      name: anim_jack_in_the_box_isolated_15
       rect:
         serializedVersion: 2
         x: 960
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80527e58316819942ae381d4c980f6ac
-      internalID: -103503003
+      spriteID: e3cb8516edbbeb04e9f700a2e2c2e167
+      internalID: -731242144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_16
+      name: anim_jack_in_the_box_isolated_16
       rect:
         serializedVersion: 2
         x: 1024
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69f0b56457feb884abd7fc3b75467e3c
-      internalID: 991897350
+      spriteID: 28343818eebeb634eb274db189b25aec
+      internalID: 1078755338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_17
+      name: anim_jack_in_the_box_isolated_17
       rect:
         serializedVersion: 2
         x: 1088
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29e3669ec36a54047aa9887860cb6867
-      internalID: -660442333
+      spriteID: e9d4a8350a5244345a0dab1a497132d3
+      internalID: 592321883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_18
+      name: anim_jack_in_the_box_isolated_18
       rect:
         serializedVersion: 2
         x: 1152
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 554c1bdf02e56fa438abfb2524212e04
-      internalID: -1358544284
+      spriteID: 896c1f0dc52ed064b898e06d79479c4a
+      internalID: -101674620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_19
+      name: anim_jack_in_the_box_isolated_19
       rect:
         serializedVersion: 2
         x: 1216
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c32a58bd763c700418d62f7fc031921a
-      internalID: -611496550
+      spriteID: 368b89f6be0524949b90ad1269cd6b75
+      internalID: 1404220951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_20
+      name: anim_jack_in_the_box_isolated_20
       rect:
         serializedVersion: 2
         x: 1280
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99815986edd669246a926de6da4e70e7
-      internalID: 988093320
+      spriteID: ecb0ff9d44ce2554ea8fd23a2c40bd81
+      internalID: 433008150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_21
+      name: anim_jack_in_the_box_isolated_21
       rect:
         serializedVersion: 2
         x: 1344
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b78f8dd0f5cf664688d7ee9539c28ae
-      internalID: 311267244
+      spriteID: 407de9fdb0c567a4bb23d10dbaeaef03
+      internalID: 543812291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_22
+      name: anim_jack_in_the_box_isolated_22
       rect:
         serializedVersion: 2
         x: 1408
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 771ef775d5ab91343973ada403242855
-      internalID: -1263727015
+      spriteID: 325a8090565c00a459079ee6fb312c60
+      internalID: 1994394972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_23
+      name: anim_jack_in_the_box_isolated_23
       rect:
         serializedVersion: 2
         x: 1472
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6178def84a3c4c64997d028307fb19b5
-      internalID: 1020622367
+      spriteID: aeac85946e79e6d438990a1dc6a03086
+      internalID: -39547481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_24
+      name: anim_jack_in_the_box_isolated_24
       rect:
         serializedVersion: 2
         x: 1536
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21895c90739be0447a9d36871abb44d6
-      internalID: 791027751
+      spriteID: 4caae0b46c5a01a4598476f91beb4d0a
+      internalID: -1500484702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_25
+      name: anim_jack_in_the_box_isolated_25
       rect:
         serializedVersion: 2
         x: 1600
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01ba2d26ec17a4c48baa3322d7b59285
-      internalID: -661473957
+      spriteID: 107ee2905514a6b43ab318b9234cce62
+      internalID: 1747402029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_26
+      name: anim_jack_in_the_box_isolated_26
       rect:
         serializedVersion: 2
         x: 1664
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a329c4e2e4ffa343beef22aa3e5ef58
-      internalID: -1928857817
+      spriteID: 60325feeeed549240bbb3edd1bb8ad21
+      internalID: -2119681311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_27
+      name: anim_jack_in_the_box_isolated_27
       rect:
         serializedVersion: 2
         x: 1728
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c81afb9a5323be4bb25357951a7fca3
-      internalID: -976869457
+      spriteID: 4b7f98ce46d46f346bd81b9731468bed
+      internalID: -1573590931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_28
+      name: anim_jack_in_the_box_isolated_28
       rect:
         serializedVersion: 2
         x: 1792
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91a8a966d627e25438561b17e5e881cc
-      internalID: 520054353
+      spriteID: 2bfe0f28358f618438ae354a62a8b501
+      internalID: 100761832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_29
+      name: anim_jack_in_the_box_isolated_29
       rect:
         serializedVersion: 2
         x: 1856
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a916e28279c4cda4ab854b2d34d8e3fc
-      internalID: 1974835900
+      spriteID: ea3b33133cb6bf54386dcbab5f141f99
+      internalID: -659403489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_30
+      name: anim_jack_in_the_box_isolated_30
       rect:
         serializedVersion: 2
         x: 1920
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c50f4bb4b8fca2b41a32144d9ba2c01e
-      internalID: -735523157
+      spriteID: 997a9533811d6a54089c7855e2b96e5e
+      internalID: -1751797301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_31
+      name: anim_jack_in_the_box_isolated_31
       rect:
         serializedVersion: 2
         x: 1984
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e15d64e67cfa23743972af2651cb73b9
-      internalID: 1757050067
+      spriteID: 6aeaaad6079c64f41800173b7c471a7d
+      internalID: 1349605916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_32
+      name: anim_jack_in_the_box_isolated_32
       rect:
         serializedVersion: 2
         x: 2048
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f02551886e4789348a0d099e87a1d5cc
-      internalID: -1697133747
+      spriteID: bf86f0bbfa7bc1f4db6b9a01b53a72db
+      internalID: 601999826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_33
+      name: anim_jack_in_the_box_isolated_33
       rect:
         serializedVersion: 2
         x: 2112
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fafd9bb40097fdd4ca2de2ac527c33cc
-      internalID: 596943754
+      spriteID: 0fdd102e006cec1428b2fa609c0a4cb9
+      internalID: 750993795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_34
+      name: anim_jack_in_the_box_isolated_34
       rect:
         serializedVersion: 2
         x: 2176
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4915e44ed426cee4d967c1d455213835
-      internalID: 21379421
+      spriteID: 672d38e884a9dd749b55a340e15c7df7
+      internalID: 1530123077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_35
+      name: anim_jack_in_the_box_isolated_35
       rect:
         serializedVersion: 2
         x: 2240
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ad150c1dbdefc542af8a558bbb60e46
-      internalID: -1782154517
+      spriteID: 93465b094840b764195631878f16dea7
+      internalID: -1308660556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_36
+      name: anim_jack_in_the_box_isolated_36
       rect:
         serializedVersion: 2
         x: 2304
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e5312f8c71872445b70553cf0e96932
-      internalID: -856049636
+      spriteID: e67e53efe9e307840ab9f89a1a0af8d6
+      internalID: 1196885641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_37
+      name: anim_jack_in_the_box_isolated_37
       rect:
         serializedVersion: 2
         x: 2368
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbe9b0e11369fd949a5feb11b36673fc
-      internalID: -2116252244
+      spriteID: 45bd009793299bd47aa0872c7ccb45eb
+      internalID: -504475231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_38
+      name: anim_jack_in_the_box_isolated_38
       rect:
         serializedVersion: 2
         x: 2432
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e478c526cd0ca04ba2a78ef37e37734
-      internalID: -1782236615
+      spriteID: ec9bb17b0ababfd4baa87ec4f0946056
+      internalID: -1757994882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_39
+      name: anim_jack_in_the_box_isolated_39
       rect:
         serializedVersion: 2
         x: 2496
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 411a7a9b0e4484b4abe3363f14408510
-      internalID: 1007146519
+      spriteID: 317150b488931e74a8c54fb2f0fdceef
+      internalID: 1536186666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_40
+      name: anim_jack_in_the_box_isolated_40
       rect:
         serializedVersion: 2
         x: 2560
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e8354e0d239457408f0de34a0c64d96
-      internalID: 650487207
+      spriteID: 9ce78a59f6bd9e242b492dff37437934
+      internalID: -1304958893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_41
+      name: anim_jack_in_the_box_isolated_41
       rect:
         serializedVersion: 2
         x: 2624
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b13f9f5ebf8d36245a2db323e4860ce2
-      internalID: -2009046925
+      spriteID: b42959c84353637438c80c8121728a4f
+      internalID: 452472094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_42
+      name: anim_jack_in_the_box_isolated_42
       rect:
         serializedVersion: 2
         x: 2688
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a941e4c1e142e5488384246587e3aad
-      internalID: 1028195530
+      spriteID: bb45db8fe9b7b9647baf5d9a6cd2b289
+      internalID: -99471916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_43
+      name: anim_jack_in_the_box_isolated_43
       rect:
         serializedVersion: 2
         x: 2752
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bb6e935f35248b4bb53a74454b186af
-      internalID: -1031764143
+      spriteID: e7b25289d3fbcb24bab4ce6bb1163512
+      internalID: -547172033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_44
+      name: anim_jack_in_the_box_isolated_44
       rect:
         serializedVersion: 2
         x: 2816
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7311e10472a9b5345a3fc25ed7d473bf
-      internalID: 1444655608
+      spriteID: 51836dde00e248b4c94c1bf68f4f171b
+      internalID: -686333387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_45
+      name: anim_jack_in_the_box_isolated_45
       rect:
         serializedVersion: 2
         x: 2880
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eb11f345b7b3204db59e430a34a0926
-      internalID: 1438227295
+      spriteID: 4a8a6f28fc8f12545a8cd885c8a97e48
+      internalID: -1414917314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_46
+      name: anim_jack_in_the_box_isolated_46
       rect:
         serializedVersion: 2
         x: 2944
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35269ea755528b0448317f62467b82be
-      internalID: 1330541698
+      spriteID: e1e44cbb4bc36e34bb29131db0378e99
+      internalID: -242448906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_47
+      name: anim_jack_in_the_box_isolated_47
       rect:
         serializedVersion: 2
         x: 3008
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abe0229a08036bb4f89286b7f0c2432e
-      internalID: -2098470514
+      spriteID: 20773dfdba03f1a4b88f45f854fb3c1b
+      internalID: 919077435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_48
+      name: anim_jack_in_the_box_isolated_48
       rect:
         serializedVersion: 2
         x: 3072
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ff217084dfcc8248b305c47821f2381
-      internalID: -262139731
+      spriteID: 8e3d7844e92ecd54a8c857319f2e044a
+      internalID: -2099289283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_49
+      name: anim_jack_in_the_box_isolated_49
       rect:
         serializedVersion: 2
         x: 3136
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e492bec0a07fe21449e3c3a725ac43c6
-      internalID: -1377100758
+      spriteID: 4725059adcde47141b2a0cf378aef254
+      internalID: -697922989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_50
+      name: anim_jack_in_the_box_isolated_50
       rect:
         serializedVersion: 2
         x: 3200
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0252060e458c4846b602ccb1f3d28ec
-      internalID: 302483790
+      spriteID: 7de5e011e72463f4c9b7a8d87ab6ef38
+      internalID: -1290057330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_51
+      name: anim_jack_in_the_box_isolated_51
       rect:
         serializedVersion: 2
         x: 3264
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d814bc536dec7a47b67c20c9b672fe5
-      internalID: 1427526820
+      spriteID: 6156c99c16560314e878d5477574ebdf
+      internalID: -1639303794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_52
+      name: anim_jack_in_the_box_isolated_52
       rect:
         serializedVersion: 2
         x: 3328
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8e8e1b52ed24eb4b97d748830ac593b
-      internalID: 1067590249
+      spriteID: 030228652c45b684ca9e2b89e9d1835c
+      internalID: -179657232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_53
+      name: anim_jack_in_the_box_isolated_53
       rect:
         serializedVersion: 2
         x: 3392
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a585bac83a5bc454f999d378bd734806
-      internalID: -192655327
+      spriteID: 25480a7a60d0a2342a5f115bf18024b8
+      internalID: -1013219303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_54
+      name: anim_jack_in_the_box_isolated_54
       rect:
         serializedVersion: 2
         x: 3456
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c137129ea530e041a51ad36eb59ad0b
-      internalID: 1387687157
+      spriteID: fdedb58831d2ee64dbdd699207443871
+      internalID: -44985431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anim_magnet_rope_55
+      name: anim_jack_in_the_box_isolated_55
       rect:
         serializedVersion: 2
         x: 3520
         y: 0
         width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c9e05e75458ce74d93162a304373bc5
-      internalID: 1696726495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_56
-      rect:
-        serializedVersion: 2
-        x: 3584
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a55821f136ce4d48b31cbbd22f2a05a
-      internalID: 1587062630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_57
-      rect:
-        serializedVersion: 2
-        x: 3648
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2abe8feb7a6ab4c46a235ace76692427
-      internalID: -1859935052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_58
-      rect:
-        serializedVersion: 2
-        x: 3712
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e25b39dd7249a5047bb05d9614cf2c84
-      internalID: -1725134269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_59
-      rect:
-        serializedVersion: 2
-        x: 3776
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eeaac81589cfce64fbcd40ae5a76ba6a
-      internalID: -678232880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: anim_magnet_rope_60
-      rect:
-        serializedVersion: 2
-        x: 3840
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.6328125, y: 0.3203125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 091bffe06bd535b41b693ba896ea6dd7
-      internalID: 1898530170
+      spriteID: e6bb2cee974d56846bc5e0d5353a6615
+      internalID: 2014800066
       vertices: []
       indices: 
       edges: []
@@ -1414,67 +1309,62 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      anim_magnet_rope_0: 715212770
-      anim_magnet_rope_1: 58645856
-      anim_magnet_rope_10: 756268546
-      anim_magnet_rope_11: 1465543591
-      anim_magnet_rope_12: 1723598862
-      anim_magnet_rope_13: 1583250161
-      anim_magnet_rope_14: -1898994890
-      anim_magnet_rope_15: -103503003
-      anim_magnet_rope_16: 991897350
-      anim_magnet_rope_17: -660442333
-      anim_magnet_rope_18: -1358544284
-      anim_magnet_rope_19: -611496550
-      anim_magnet_rope_2: 1603342421
-      anim_magnet_rope_20: 988093320
-      anim_magnet_rope_21: 311267244
-      anim_magnet_rope_22: -1263727015
-      anim_magnet_rope_23: 1020622367
-      anim_magnet_rope_24: 791027751
-      anim_magnet_rope_25: -661473957
-      anim_magnet_rope_26: -1928857817
-      anim_magnet_rope_27: -976869457
-      anim_magnet_rope_28: 520054353
-      anim_magnet_rope_29: 1974835900
-      anim_magnet_rope_3: -1576704957
-      anim_magnet_rope_30: -735523157
-      anim_magnet_rope_31: 1757050067
-      anim_magnet_rope_32: -1697133747
-      anim_magnet_rope_33: 596943754
-      anim_magnet_rope_34: 21379421
-      anim_magnet_rope_35: -1782154517
-      anim_magnet_rope_36: -856049636
-      anim_magnet_rope_37: -2116252244
-      anim_magnet_rope_38: -1782236615
-      anim_magnet_rope_39: 1007146519
-      anim_magnet_rope_4: 574485086
-      anim_magnet_rope_40: 650487207
-      anim_magnet_rope_41: -2009046925
-      anim_magnet_rope_42: 1028195530
-      anim_magnet_rope_43: -1031764143
-      anim_magnet_rope_44: 1444655608
-      anim_magnet_rope_45: 1438227295
-      anim_magnet_rope_46: 1330541698
-      anim_magnet_rope_47: -2098470514
-      anim_magnet_rope_48: -262139731
-      anim_magnet_rope_49: -1377100758
-      anim_magnet_rope_5: -1439021096
-      anim_magnet_rope_50: 302483790
-      anim_magnet_rope_51: 1427526820
-      anim_magnet_rope_52: 1067590249
-      anim_magnet_rope_53: -192655327
-      anim_magnet_rope_54: 1387687157
-      anim_magnet_rope_55: 1696726495
-      anim_magnet_rope_56: 1587062630
-      anim_magnet_rope_57: -1859935052
-      anim_magnet_rope_58: -1725134269
-      anim_magnet_rope_59: -678232880
-      anim_magnet_rope_6: -3586460
-      anim_magnet_rope_60: 1898530170
-      anim_magnet_rope_7: 1112909648
-      anim_magnet_rope_8: 981113157
-      anim_magnet_rope_9: 1243475969
+      anim_jack_in_the_box_isolated_0: 32093650
+      anim_jack_in_the_box_isolated_1: 1278950526
+      anim_jack_in_the_box_isolated_10: -1525201375
+      anim_jack_in_the_box_isolated_11: -1812822540
+      anim_jack_in_the_box_isolated_12: -892262804
+      anim_jack_in_the_box_isolated_13: 644665496
+      anim_jack_in_the_box_isolated_14: -1556094922
+      anim_jack_in_the_box_isolated_15: -731242144
+      anim_jack_in_the_box_isolated_16: 1078755338
+      anim_jack_in_the_box_isolated_17: 592321883
+      anim_jack_in_the_box_isolated_18: -101674620
+      anim_jack_in_the_box_isolated_19: 1404220951
+      anim_jack_in_the_box_isolated_2: 86015754
+      anim_jack_in_the_box_isolated_20: 433008150
+      anim_jack_in_the_box_isolated_21: 543812291
+      anim_jack_in_the_box_isolated_22: 1994394972
+      anim_jack_in_the_box_isolated_23: -39547481
+      anim_jack_in_the_box_isolated_24: -1500484702
+      anim_jack_in_the_box_isolated_25: 1747402029
+      anim_jack_in_the_box_isolated_26: -2119681311
+      anim_jack_in_the_box_isolated_27: -1573590931
+      anim_jack_in_the_box_isolated_28: 100761832
+      anim_jack_in_the_box_isolated_29: -659403489
+      anim_jack_in_the_box_isolated_3: 1349378975
+      anim_jack_in_the_box_isolated_30: -1751797301
+      anim_jack_in_the_box_isolated_31: 1349605916
+      anim_jack_in_the_box_isolated_32: 601999826
+      anim_jack_in_the_box_isolated_33: 750993795
+      anim_jack_in_the_box_isolated_34: 1530123077
+      anim_jack_in_the_box_isolated_35: -1308660556
+      anim_jack_in_the_box_isolated_36: 1196885641
+      anim_jack_in_the_box_isolated_37: -504475231
+      anim_jack_in_the_box_isolated_38: -1757994882
+      anim_jack_in_the_box_isolated_39: 1536186666
+      anim_jack_in_the_box_isolated_4: 757397552
+      anim_jack_in_the_box_isolated_40: -1304958893
+      anim_jack_in_the_box_isolated_41: 452472094
+      anim_jack_in_the_box_isolated_42: -99471916
+      anim_jack_in_the_box_isolated_43: -547172033
+      anim_jack_in_the_box_isolated_44: -686333387
+      anim_jack_in_the_box_isolated_45: -1414917314
+      anim_jack_in_the_box_isolated_46: -242448906
+      anim_jack_in_the_box_isolated_47: 919077435
+      anim_jack_in_the_box_isolated_48: -2099289283
+      anim_jack_in_the_box_isolated_49: -697922989
+      anim_jack_in_the_box_isolated_5: 126657275
+      anim_jack_in_the_box_isolated_50: -1290057330
+      anim_jack_in_the_box_isolated_51: -1639303794
+      anim_jack_in_the_box_isolated_52: -179657232
+      anim_jack_in_the_box_isolated_53: -1013219303
+      anim_jack_in_the_box_isolated_54: -44985431
+      anim_jack_in_the_box_isolated_55: 2014800066
+      anim_jack_in_the_box_isolated_6: -1244065467
+      anim_jack_in_the_box_isolated_7: -1069243515
+      anim_jack_in_the_box_isolated_8: -1367776311
+      anim_jack_in_the_box_isolated_9: -475440546
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
