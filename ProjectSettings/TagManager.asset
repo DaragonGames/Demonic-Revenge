@@ -44,6 +44,12 @@ TagManager:
   - name: Player
     uniqueID: 1973419675
     locked: 0
+  - name: Darkness
+    uniqueID: 1550722855
+    locked: 0
+  - name: Ladder
+    uniqueID: 853864467
+    locked: 0
   - name: UI
     uniqueID: 3044171005
     locked: 0

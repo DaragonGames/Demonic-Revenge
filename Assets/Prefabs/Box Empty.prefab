@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 3782514741460028076}
   - component: {fileID: 7633382110831669070}
   - component: {fileID: 6575892436179505338}
+  - component: {fileID: 8562872107494150281}
   m_Layer: 0
   m_Name: Box Empty
   m_TagString: Untagged
@@ -158,3 +159,16 @@ MonoBehaviour:
   m_IgnoreFromBuild: 0
   m_ApplyToChildren: 1
   m_AffectedAgents: ffffffff
+--- !u!114 &8562872107494150281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6245284439261676502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79cca1b4d3c5a3042a69abc1d9df59f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  line: This is now empty, lucky me!

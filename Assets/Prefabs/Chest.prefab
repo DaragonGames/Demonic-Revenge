@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79cca1b4d3c5a3042a69abc1d9df59f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  line: Loooooot! Okay, what's in here..
+  line: Great chest ahead.
 --- !u!114 &3597387129504186562
 MonoBehaviour:
   m_ObjectHideFlags: 0

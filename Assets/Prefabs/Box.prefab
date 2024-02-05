@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 6372623999479413614}
   - component: {fileID: 456058503409800138}
   - component: {fileID: 4395269812186967137}
+  - component: {fileID: -9087044762274627465}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -174,3 +175,16 @@ MonoBehaviour:
   name: box
   alternativePrefab: {fileID: 6245284439261676502, guid: cfe91bf09db879344b516ee4aa517d39, type: 3}
   reach: 2
+--- !u!114 &-9087044762274627465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5027897260389859945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79cca1b4d3c5a3042a69abc1d9df59f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  line: Is finding more loot worth triggering my cardboard allergy? Yes it is.

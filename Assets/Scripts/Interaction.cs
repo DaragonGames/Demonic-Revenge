@@ -86,6 +86,9 @@ public class Interaction : MonoBehaviour
                     comment("Well, well, well, if it isn’t my old baseball bat. I used to love BONKing stuff."); 
                     UseItem();
                 }
+                else{
+                    comment("It's locked, but at least it's not a mimic.");
+                }
                 if (Inventory.heldItem=="bat")
                 {
                     PlayerController.player.StartAnimation("hitting", obj);
@@ -130,7 +133,7 @@ public class Interaction : MonoBehaviour
                 if (Inventory.heldItem == "broom")
                 {
                     PickupItem(obj);
-                    comment("...");
+                    comment("I hope I did not make that spider my mortal enemy.");
                     UseItem();
                 }                
             break;            
@@ -191,47 +194,47 @@ public class Interaction : MonoBehaviour
             // Only Pickup Items
             // 
             case "dagger":
-                if (!readBook) {return;}
                 if (!GameManager.conditionsMeet[GameManager.ConditionNames.hasFlashlight]) {return;}
                 PickupItem(obj);
                 comment("A creepy dagger. Wonder if I could quickstep with this.");
+                return;
             break;
             case "rope":
-                if (!readBook) {return;}
                 comment("Found some rope.");
                 PickupItem(obj);
+                return;
             break;
             case "magnet":
-                if (!readBook) {return;}
                 if (!GameManager.conditionsMeet[GameManager.ConditionNames.hasFlashlight]) {return;}
                 comment("It’s mine now —- my precious...");
                 PickupItem(obj);
+                return;
             break;
             case "screwdriver":
-                if (!readBook) {return;}
                 comment("A screwdriver, sadly not the kind you can drink.");
                 PickupItem(obj);
+                return;
             break;
             case "candle":
-                if (!readBook) {return;}
                 comment("Found some candles.");
                 PickupItem(obj);
+                return;
             break;
             case "chalk":
-                if (!readBook) {return;}
                 PickupItem(obj);
                 comment("This is chalk or five white pixels, I`m not sure.");
+                return;
             break;
             case "flashLightEmpty":
-                if (!readBook) {return;}
                 PickupItem(obj);                
-                comment("...");
+                comment("Great news! You've picked up a flashlight. Prepare for a bright future – or at least, a better-lit present. Say goodbye to shadows, and hello to your new beacon of 'I-can-see-what-I'm-doing' empowerment! Oh shit, its batteries are empty...");
+                return;
             break;
             case "broom":
-                if (!readBook) {return;}
                 if (!GameManager.conditionsMeet[GameManager.ConditionNames.hasFlashlight]) {return;}
                 PickupItem(obj);
-                comment("...");
+                comment("Ah, the mighty broom, truly the Gandalf of cleaning tools.");
+                return;
             break;
         }
 

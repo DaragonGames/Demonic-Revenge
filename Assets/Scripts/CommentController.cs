@@ -7,6 +7,7 @@ using UnityEngine;
 public class CommentController : MonoBehaviour
 {
     public static CommentController commentor;
+    public TMP_Text background;
     public Transform playerPosition;
     private float timer=0;    
     private string displayText ="Alright, there’s tons of junk in the attic. Something here has to be cool enough to show off on TokTik. People love old crap. With enough luck, I might just go viral.";
@@ -27,14 +28,17 @@ public class CommentController : MonoBehaviour
         if (timer >=displayText.Length/charPerSecond+lingeringTime)
         {
             gameObject.SetActive(false);
+            background.gameObject.SetActive(false);
+            return;
         }
-
+        background.gameObject.SetActive(true);
         string outMessage = "";
         for (int i= 0; i < Math.Min(displayText.Length, timer*charPerSecond); i++ )
         {
             outMessage += displayText[i];
         }
         GetComponentInChildren<TMP_Text>().text= outMessage;
+        background.text = "<mark=#000000dd>"+outMessage+"</mark>";
     }
 
     public void Comment(string comment)

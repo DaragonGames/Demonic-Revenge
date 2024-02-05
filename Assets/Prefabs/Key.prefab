@@ -83,7 +83,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79cca1b4d3c5a3042a69abc1d9df59f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  line: ...
+  line: Looks like a key, but I'm not touching that with a 3 feet pole, but with
+    a 4 feet pole on the other hand.
 --- !u!1 &9128324465904649438
 GameObject:
   m_ObjectHideFlags: 0
