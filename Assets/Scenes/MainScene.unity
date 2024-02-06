@@ -25545,7 +25545,7 @@ MonoBehaviour:
   sprites:
   - {fileID: 21300000, guid: 4519f54051a53bb4d9185d23371d1f7f, type: 3}
   - {fileID: 21300000, guid: a231a2ec37fa58245b8a9b2355b87e52, type: 3}
-  - {fileID: 21300000, guid: c01935e74f31b9d41b2fdebe72001b82, type: 3}
+  - {fileID: 21300000, guid: 2240857bbe344fa48ba0173ffc9f5a61, type: 3}
 --- !u!212 &2021007461
 SpriteRenderer:
   m_ObjectHideFlags: 0

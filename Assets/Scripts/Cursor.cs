@@ -9,6 +9,7 @@ public class Cursor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        UnityEngine.Cursor.visible = false;
         Vector3 cameraPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         transform.position = new Vector3(cameraPosition.x, 23, cameraPosition.z);
         

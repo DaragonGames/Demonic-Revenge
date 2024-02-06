@@ -270,7 +270,6 @@ public class Interaction : MonoBehaviour
                 return;
             break;
             case "soggyMatches":
-                if (!GameManager.conditionsMeet[GameManager.ConditionNames.hasFlashlight]) {comment("I'm not touching the darkness. I left my emo phase back in that highschool locker.");return;}
                 PickupItem(obj);                
                 comment("Oof, they’re all moldy and soggy.");
                 return;
