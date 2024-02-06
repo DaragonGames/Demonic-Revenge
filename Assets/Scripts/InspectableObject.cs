@@ -8,6 +8,11 @@ public class InspectableObject : MonoBehaviour
 
     void OnMouseOver()
     {
+        if (!GameManager.conditionsMeet[GameManager.ConditionNames.hasFlashlight] && PlayerController.player.transform.position.x <= -20)
+        {
+            CommentController.commentor.Comment("I can't hear anything, it's too dark!");
+            return;
+        }
         if (Input.GetMouseButtonUp(1) && GameManager.gameState == 1)
         {
             CommentController.commentor.Comment(line);

@@ -25542,6 +25542,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b579f91fcd1dbc74cad793fc180435d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 4519f54051a53bb4d9185d23371d1f7f, type: 3}
+  - {fileID: 21300000, guid: a231a2ec37fa58245b8a9b2355b87e52, type: 3}
+  - {fileID: 21300000, guid: c01935e74f31b9d41b2fdebe72001b82, type: 3}
 --- !u!212 &2021007461
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25583,15 +25587,15 @@ SpriteRenderer:
   m_SortingLayerID: -1250796291
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1cd032ad3c819fc4a8190b2ab69dcbff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4519f54051a53bb4d9185d23371d1f7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.6, y: 0.6}
+  m_Size: {x: 0.4, y: 0.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2021007462
@@ -29273,6 +29277,10 @@ PrefabInstance:
     - target: {fileID: 1928955390579233085, guid: ee3c874d05d43ea45a3b9fafaf77f836, type: 3}
       propertyPath: m_Name
       value: Broom
+      objectReference: {fileID: 0}
+    - target: {fileID: 4479023147020867383, guid: ee3c874d05d43ea45a3b9fafaf77f836, type: 3}
+      propertyPath: line
+      value: I Hope I get the broom closet ending.
       objectReference: {fileID: 0}
     - target: {fileID: 6458748537392830898, guid: ee3c874d05d43ea45a3b9fafaf77f836, type: 3}
       propertyPath: m_LocalPosition.x
