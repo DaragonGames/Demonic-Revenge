@@ -54,6 +54,12 @@ public class InventoryDisplay : MonoBehaviour
                 return possibleItems[13];
             case "broom":
                 return possibleItems[14];
+            case "soggyMatches":
+                return possibleItems[15];
+            case "googlyEyes":
+                return possibleItems[16];
+            case "gameboy":
+                return possibleItems[17];
             default:
                 return null;
         }

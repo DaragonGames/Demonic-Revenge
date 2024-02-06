@@ -82,9 +82,8 @@ public class Interaction : MonoBehaviour
                 if (Inventory.heldItem=="chestKey") 
                 {
                     TransformOriginObject(obj);
-                    GainItem("bat");    
-                    comment("Well, well, well, if it isn’t my old baseball bat. I used to love BONKing stuff."); 
-                    UseItem();
+                    TransformItem("bat");    
+                    comment("Well, well, well, if it isn’t my old baseball bat. I used to love BONKing stuff.");                     
                 }
                 else{
                     comment("It's locked, but at least it's not a mimic.");
@@ -110,9 +109,8 @@ public class Interaction : MonoBehaviour
                 {
                     PlayerController.player.StartAnimation("hitting", obj);
                     TransformOriginObject(obj);
-                    GainItem("fakeSkull");
+                    TransformItem("fakeSkull");
                     comment("2B or not 2B...");
-                    UseItem();
                 }
             break;
             case "jackInTheBox":
@@ -132,9 +130,10 @@ public class Interaction : MonoBehaviour
                 if (!GameManager.conditionsMeet[GameManager.ConditionNames.hasFlashlight]) {return;}
                 if (Inventory.heldItem == "broom")
                 {
+                    UseItem();
                     PickupItem(obj);
                     comment("I hope I did not make that spider my mortal enemy.");
-                    UseItem();
+
                 }                
             break;            
             //
@@ -168,6 +167,10 @@ public class Interaction : MonoBehaviour
                     TransformOriginObject(obj);
                     comment("AND THUS I AM BECOME PROMETHEUS!");
                     UseItem();
+                }
+                if (Inventory.heldItem=="soggyMatches")
+                {
+                    comment("Yeah no, these matches are no good anymore. They’re all moldy and soggy.");
                 }
             break;
             case "litPentagram":
@@ -236,6 +239,21 @@ public class Interaction : MonoBehaviour
                 comment("Ah, the mighty broom, truly the Gandalf of cleaning tools.");
                 return;
             break;
+            case "soggyMatches":
+                PickupItem(obj);                
+                comment("Oof, they’re all moldy and soggy.");
+                return;
+            break;
+            case "googlyEyes":
+                PickupItem(obj);                
+                comment("It’s a googly eye revoluuuution!");
+                return;
+            break;
+            case "gameboy":
+                PickupItem(obj);                
+                comment("This is like.. an antique switch? My god, it’s bulky.");
+                return;
+            break;
         }
 
         // This List helds all Interactions beetwenn the world objects and the player
@@ -277,8 +295,8 @@ public class Interaction : MonoBehaviour
     }
     public static void TransformItem(string itemName)
     {
-        GainItem(itemName);
         UseItem();
+        GainItem(itemName);
     }
 
     public static void StartAnimation(InteractableObject obj)
